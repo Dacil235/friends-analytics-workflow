@@ -1,0 +1,9 @@
+﻿Escenario,Tipo,Porcentaje_Escenas_Real,Descripcion,Numero_Escenas_Est
+Apartamento de Monica,Principal,38,El escenario con más tiempo de pantalla (cocina y salón de Monica).,1900
+Central Perk,Principal,24,"El punto de encuentro social, segundo en importancia.",1200
+Apartamento de Joey,Principal,18,El apartamento frente al de Monica.,900
+Pasillo (Hallway),Transición,5,Escenas de transición entre los dos apartamentos principales.,250
+Apartamento de Ross,Secundario,6,"Incluye su apartamento de soltero y el de ""Ugly Naked Guy"".",300
+Apartamento de Phoebe,Secundario,4,Aparece menos debido a que Phoebe vive más lejos.,200
+Oficina/Trabajos,Trabajo,3,"Museo de Ross, oficina de Chandler, Ralph Lauren, etc.",150
+Exteriores / Otros,Especial,2,"Escenas en la calle, taxis, y viajes (Londres, Vegas).",100
