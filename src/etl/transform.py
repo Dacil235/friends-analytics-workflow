@@ -21,6 +21,10 @@ def info_df(dataframe, search=None, sample_n=5):
     dataframe.info()
     print("-" * 100)
 
+    print("Análisis valores duplicados:")
+    display(dataframe.duplicated().sum())
+    print("-" * 100)
+
     print("Análisis descriptivo de las variables cualitativas:")
     display(round(dataframe.describe(include=[object, "category"]).T))
     print("-" * 100)
@@ -74,10 +78,10 @@ def analisis_columnas (dataframe):
     """
     for columna in dataframe:
         print(f"Columna: {columna}\n {"-" * 100}")
-        print(f"Valores unicos: {dataframe[columna].unique()}\n {"-" * 100}")
-        print(f"Valores duplicados: {dataframe[columna].duplicated().sum()}\n {"-" * 100}")
-        print(f"Valores nulos: {dataframe[columna].isna().sum()}\n {"-" * 100}")
-        print(f"El tipo de dato: {dataframe[columna].dtype}\n {"-" * 100}")
+        #print(f"Valores unicos: {dataframe[columna].unique()}\n")
+        #print(f"Valores duplicados: {dataframe[columna].duplicated().sum()}\n {"-" * 100}")
+        print(f"Valores nulos: {dataframe[columna].isna().sum()}\n")
+        #print(f"El tipo de dato: {dataframe[columna].dtype}\n {"-" * 100}")
 
 
 #función patrón regex para transformar los nombres de las columnas 
