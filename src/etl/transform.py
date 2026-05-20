@@ -17,16 +17,16 @@ def info_df(dataframe, search=None, sample_n=5):
 
     """
 
-    print("Informacion sobre el dataframe:")
+    print("Información sobre el dataframe:")
     dataframe.info()
     print("-" * 100)
 
-    print("La descripcion del dataframe de strings:")
-    display(round(dataframe.describe(include=[object, "category"]).T),2)
+    print("Análisis descriptivo de las variables cualitativas:")
+    display(round(dataframe.describe(include=[object, "category"]).T))
     print("-" * 100)
 
-    print("La descripcion del dataframe numérico:")
-    display(round(dataframe.describe(exclude=[object, "category"]).T),2)
+    print("Análisis descriptivo de las variables cuantitativas:")
+    display(round(dataframe.describe(exclude=[object, "category"]).T))
     print("-" * 100)
 
     print(f"La forma del dataframe es:\n{dataframe.shape[0]} filas\n{dataframe.shape[1]} columnas")
