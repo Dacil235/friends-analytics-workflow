@@ -26,7 +26,15 @@ def info_df(dataframe, search=None, sample_n=5):
     print("-" * 100)
 
     print("Análisis descriptivo de las variables cuantitativas:")
-    display(round(dataframe.describe(exclude=[object, "category"]).T))
+    # Seleccionamos únicamente las columnas numéricas
+    columnas_numericas = dataframe.select_dtypes(include=['number'])
+    
+    # Si existen columnas numéricas, las describimos; si no, mostramos un mensaje amistoso
+    if not columnas_numericas.empty:
+        display(round(columnas_numericas.describe().T, 2))
+    else:
+        print("Nota: El DataFrame no contiene variables cuantitativas (numéricas) para analizar.")
+        
     print("-" * 100)
 
     print(f"La forma del dataframe es:\n{dataframe.shape[0]} filas\n{dataframe.shape[1]} columnas")
