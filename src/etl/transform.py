@@ -1,6 +1,6 @@
 import re
 
-def info_df(dataframe, search=None, sample_n=5):
+def info_df(dataframe, sample_n=5):
     """
     Genera un informe técnico del DataFrame: separa estadísticas por tipo de dato (str vs num),
     muestra dimensiones y permite buscar términos específicos en columnas y filas.
@@ -17,71 +17,74 @@ def info_df(dataframe, search=None, sample_n=5):
 
     """
 
-    print("Información sobre el dataframe:")
-    dataframe.info()
-    print("-" * 100)
+    print("\n" + "="*80)
+    print("INFORME TÉCNICO DEL DATAFRAME")
+    print("="*80)
 
-    print("Análisis valores duplicados:")
-    display(dataframe.duplicated().sum())
-    print("-" * 100)
 
-    print("Análisis descriptivo de las variables cualitativas:")
-    display(round(dataframe.describe(include=[object, "category"]).T))
-    print("-" * 100)
-
-    print("Análisis descriptivo de las variables cuantitativas:")
-    # Seleccionamos únicamente las columnas numéricas
-    columnas_numericas = dataframe.select_dtypes(include=['number'])
+     # Validación inicial
+    if dataframe is None:
+        print("❌ Error: El DataFrame es None.")
+        return
     
-    # Si existen columnas numéricas, las describimos; si no, mostramos un mensaje amistoso
-    if not columnas_numericas.empty:
-        display(round(columnas_numericas.describe().T, 2))
-    else:
-        print("Nota: El DataFrame no contiene variables cuantitativas (numéricas) para analizar.")
-        
-    print("-" * 100)
+    if not hasattr(dataframe, "shape"):
+        print("❌ Error: El objeto proporcionado no es un DataFrame válido.")
+        return
 
-    print(f"La forma del dataframe es:\n{dataframe.shape[0]} filas\n{dataframe.shape[1]} columnas")
-    print("-" * 100)
+    if dataframe.empty:
+        print("⚠️ El DataFrame está vacío. No hay datos que analizar.")
+        return
+    
+  # Dimensiones
+    print("\n🔹 Dimensiones:")
+    print(f"- Filas: {dataframe.shape[0]}")
+    print(f"- Columnas: {dataframe.shape[1]}")
 
-    if search:
-        search_str = str(search).strip().lower()
-        cols_match = [c for c in dataframe.columns if search_str in c.lower()]
-        print(f"Columnas que contienen '{search}': {cols_match if cols_match else 'ninguna'}")
+    # Info general
+    print("\n🔹 Info general:")
+    try:
+        dataframe.info()
+    except Exception as e:
+        print(f"❌ Error al mostrar dataframe.info(): {e}")
 
-        mask = dataframe.apply(lambda col: col.astype(str).str.contains(search_str, case=False, na=False))
-        rows_match = dataframe[mask.any(axis=1)]
-        print(f"Filas con '{search}': {rows_match.shape[0]} encontrada(s)")
-        if not rows_match.empty:
-            display(rows_match.head(sample_n))
+    # Nulos
+    print("\n🔹 Nulos:")
+    try:
+        print(f"{dataframe.isna().sum()/dataframe.shape[0]*100}")
+    except Exception as e:
+        print(f"❌ Error al calcular nulos: {e}")
+
+    # Duplicados
+    print("\n🔹 Duplicados:")
+    try:
+        print(f"Total duplicados: {dataframe.duplicated().sum()}")
+    except Exception as e:
+        print(f"❌ Error al calcular duplicados: {e}")
+
+    # Descriptivo cualitativo
+    print("\n🔹 Descriptivo variables cualitativas:")
+    try:
+        qual_cols = dataframe.select_dtypes(include=['object', 'category'])
+        if qual_cols.shape[1] > 0:
+            display(qual_cols.describe().T)
         else:
-            print("No se encontraron filas con ese criterio.")
-        print("-" * 100)
+            print("No hay variables cualitativas.")
+    except Exception as e:
+        print(f"❌ Error en descriptivo cualitativo: {e}")
 
-    print("Muestra del dataframe:")
+    # Descriptivo cuantitativo
+    print("\n🔹 Descriptivo variables cuantitativas:")
+    try:
+        num_cols = dataframe.select_dtypes(include='number')
+        if num_cols.shape[1] > 0:
+            display(num_cols.describe().T.round(2))
+        else:
+            print("No hay variables numéricas.")
+    except Exception as e:
+        print(f"❌ Error en descriptivo cuantitativo: {e}")
+
+    print("\n🔹 Muestra del dataframe:")
     display(dataframe.sample(min(sample_n, len(dataframe))))
-
-
-def analisis_columnas (dataframe):
-    """
-    Realiza un inventario detallado de cada columna del DataFrame para detectar 
-    inconsistencias, nulos y la diversidad de los datos.
-
-    Puntos clave de inspección:
-    --------------------------
-    1. Valores únicos: Identifica errores tipográficos (ej. "sALES eXECUTIVE") y 
-       categorías redundantes.
-    2. Duplicados: Cuenta registros repetidos dentro de cada columna (útil para IDs).
-    3. Nulos: Cuantifica la ausencia de datos por columna (guía para la imputación).
-    4. Tipo de dato: Verifica que la naturaleza del dato (float, int, object) coincida 
-       con su contenido real.
-    """
-    for columna in dataframe:
-        print(f"Columna: {columna}\n {"-" * 100}")
-        #print(f"Valores unicos: {dataframe[columna].unique()}\n")
-        #print(f"Valores duplicados: {dataframe[columna].duplicated().sum()}\n {"-" * 100}")
-        print(f"Valores nulos: {dataframe[columna].isna().sum()}\n")
-        #print(f"El tipo de dato: {dataframe[columna].dtype}\n {"-" * 100}")
 
 
 #función patrón regex para transformar los nombres de las columnas 
