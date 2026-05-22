@@ -1,4 +1,6 @@
 import re
+import pandas as pd
+from pathlib import Path
 
 def info_df(dataframe, sample_n=5):
     """
@@ -147,4 +149,131 @@ def detectar_outliers_iqr(df, columna):
     #hago la máscara y digo que me saque un df con los outliers, luego le hago un len y devuelvo la cantidad de ellos.
     outliers = df[(df[columna] > limite_superior) | (df[columna] < limite_inferior)] 
     return limite_superior, limite_inferior, len(outliers)
+
+
+def process_friends_writers(df_info, output_path="../data_processed/writters.csv"):
+    """
+    Procesa la columna 'written_by' del dataset de Friends, limpia anomalías
+    de texto (nombres pegados, saltos de línea), desglosa los escritores en
+    filas individuales con sus respectivos roles y exporta el resultado.
+
+    Args:
+        df_info (pd.DataFrame): DataFrame original con la información de los episodios.
+        output_path (str): Ruta donde se guardará el archivo CSV procesado.
+
+    Returns:
+        pd.DataFrame: DataFrame limpio y normalizado con los escritores.
+    """
+    rows_escritores = []
+
+    # Recorremos el DataFrame original fila por fila
+    for idx, row in df_info.iterrows():
+        sea = row['season']
+        epi = row['episode']
+        texto = str(row['written_by']).strip()
+        
+        # ==========================================================
+        # === PASO DE PRE-LIMPIEZA AGRESIVA (Para evitar nombres pegados) ===
+        # ==========================================================
+        # A) Separar nombres pegados por falta de espacios/comas (Ej: "Sikowitzmichael" -> "Sikowitz, michael")
+        texto = re.sub(r'([a-z])([A-Z])', r'\1, \2', texto)
+        
+        # B) Separar nombres pegados a la palabra 'teleplay' o 'story' (Ej: "Jungeteleplay" -> "Junge, teleplay")
+        texto = re.sub(r'(?i)([a-z])(teleplay\s+by|story\s+by)', r'\1, \2', texto)
+        
+        # C) Homogeneizar espaciados dobles que rompan las divisiones posteriores
+        texto = re.sub(r'\s+', ' ', texto).strip()
+        
+        # --- CASO A: TIENE CRÉDITOS DIVIDIDOS (Story by / Teleplay by) ---
+        if "story by" in texto.lower() or "teleplay by" in texto.lower():
+            
+            # Usamos expresiones regulares para identificar quién es quién sin importar el orden
+            story_match = re.search(r'(?i)story\s+by:\s*([^,]+(?:,\s*[^,]+)*)', texto)
+            teleplay_match = re.search(r'(?i)teleplay\s+by:\s*([^,]+(?:,\s*[^,]+)*)', texto)
+            
+            nombres_story = []
+            nombres_teleplay = []
+            
+            if story_match:
+                bloque_story = story_match.group(1)
+                bloque_story = re.sub(r'(?i)\s+and\s+|\s+&\s+', ', ', bloque_story)
+                nombres_story = [n.strip() for n in bloque_story.split(',') if n.strip()]
+                
+            if teleplay_match:
+                bloque_teleplay = teleplay_match.group(1)
+                bloque_teleplay = re.sub(r'(?i)\s+and\s+|\s+&\s+', ', ', bloque_teleplay)
+                nombres_teleplay = [n.strip() for n in bloque_teleplay.split(',') if n.strip()]
+                
+            # Si un nombre quedó suelto AL PRINCIPIO antes de "Teleplay by:"
+            if teleplay_match and not story_match:
+                antes_teleplay = texto.split(teleplay_match.group(0))[0].strip().rstrip(',')
+                if antes_teleplay and "story by" not in antes_teleplay.lower():
+                    antes_teleplay = re.sub(r'(?i)\s+and\s+|\s+&\s+', ', ', antes_teleplay)
+                    nombres_story = [n.strip() for n in antes_teleplay.split(',') if n.strip()]
+
+            # Guardamos los resultados clasificados asegurando que no se cuelen fragmentos de etiquetas
+            for nom in nombres_story:
+                if "teleplay" not in nom.lower() and "story" not in nom.lower():
+                    rows_escritores.append({"season": sea, "episode": epi, "writter": nom, "rol": "Story"})
+            for nom in nombres_teleplay:
+                if "teleplay" not in nom.lower() and "story" not in nom.lower():
+                    rows_escritores.append({"season": sea, "episode": epi, "writter": nom, "rol": "Teleplay"})
+
+        # --- CASO B: ESCRITORES NORMALES (Sin etiquetas) ---
+        else:
+            limpio = re.sub(r'(?i)\s+and\s+|\s+&\s+', ', ', texto)
+            nombres = [n.strip() for n in limpio.split(',') if n.strip()]
+            
+            for nom in nombres:
+                rows_escritores.append({"season": sea, "episode": epi, "writter": nom, "rol": "Writer"})
+
+    # 2. Convertir la lista en el DataFrame final
+    df_writers_clean = pd.DataFrame(rows_escritores)
+
+    # ==========================================================
+    # === PASO DE RESCATE PARA FILAS ROTAS (Saltos de línea) ===
+    # ==========================================================
+    # A) Convertir strings vacíos en None para poder eliminarlos con dropna
+    df_writers_clean['writter'] = df_writers_clean['writter'].replace(r'^\s*$', None, regex=True)
+    df_writers_clean = df_writers_clean.dropna(subset=['writter'])
+
+    # B) Rellenar hacia abajo (ffill) las temporadas y episodios vacíos rotos por el "Enter" original
+    df_writers_clean['season'] = df_writers_clean['season'].ffill()
+    df_writers_clean['episode'] = df_writers_clean['episode'].ffill()
+
+    # Convertir a enteros nativos para evitar problemas de tipos (.0) en las uniones de BI
+    df_writers_clean['season'] = df_writers_clean['season'].astype(int)
+    df_writers_clean['episode'] = df_writers_clean['episode'].astype(int)
+    # ==========================================================
+
+    # 3. Limpieza estética final de los nombres
+    df_writers_clean['writter'] = df_writers_clean['writter'].str.title().str.strip()
+
+    # Eliminamos duplicados absolutos de filas por seguridad
+    df_writers_clean = df_writers_clean.drop_duplicates()
+
+    # Filtro de seguridad: Evitar textos basura residuales de menos de 3 caracteres
+    df_writers_clean = df_writers_clean[df_writers_clean['writter'].str.len() > 3]
+
+    # 4. Exportar el fichero limpio definitivo asegurando la existencia de la carpeta destino
+    out_path = Path(output_path)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     
+    df_writers_clean.to_csv(out_path, index=False, encoding="utf-8")
+    print(f"¡Fichero corregido con éxito! Guardado en: {out_path.resolve()} ({len(df_writers_clean)} filas).")
+    
+    return df_writers_clean
+
+# ==========================================================
+# EJEMPLO DE USO (Puedes borrar o comentar esto en tu archivo final)
+# ==========================================================
+if __name__ == "__main__":
+    # Supongamos que cargas tu dataframe desde la carpeta raw
+    try:
+        df_original_info = pd.read_csv("../data_raw/friends_info.csv")
+        
+        # Llamas a la función pasando tu DataFrame
+        df_procesado = process_friends_writers(df_original_info)
+        
+    except FileNotFoundError:
+        print("Nota: No se ejecutó el ejemplo automático porque no se encontró '../data_raw/friends_info.csv'.")
