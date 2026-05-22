@@ -29,16 +29,16 @@ def load_friends_data_raw(base_path="../data_raw"):
     logging.info(f"Cargando datasets desde: {base.resolve()}")
 
     files = {
-        "bodas_divorcios": "bodas_divorcios_ross.csv",
-        "cameos": "cameos_friends_completo.csv",
+        "bodas_divorcios": "weddings_divorces_ross.csv",
+        "cameos": "friends_cameos.csv",
         "emotions": "friends_emotions.csv",
         "epiv3": "friends_episodes.csv",
-        "escenarios": "friends_escenarios.csv",
+        "escenarios": "friends_sets.csv",
         "info": "friends_info.csv",
         "quotes": "friends_quotes.csv",
         "friends": "friends.csv",
         "songs": "phoebe_buffay_songs.csv",
-        "pato_pollito": "apariciones_detalladas_pato_y_pollito.csv"
+        "pato_pollito": "duck_and_chicken.csv"
     }
 
     data = {}
