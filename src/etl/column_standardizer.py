@@ -30,8 +30,11 @@ CANONICAL_MAP = {
     "descripcion" : "description",
     "escenario" : "stage",
     "tipo" : "type",
-    "porcentaje_escenas_real" : "% scenes",
-    "numero_escenas_est" : "est_num_scenes"
+    "porcentaje_escenas_real" : "%_scenes",
+    "numero_escenas_est" : "est_num_scenes",
+    "cancion" : "song",
+    "evento" : "event",
+    "detalle" : "detail"
 }
 
 def standardize_columns(df: pd.DataFrame) -> pd.DataFrame:
