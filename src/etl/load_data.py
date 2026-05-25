@@ -29,16 +29,16 @@ def load_friends_data_raw(base_path="../data_raw"):
     logging.info(f"Cargando datasets desde: {base.resolve()}")
 
     files = {
-        "bodas_divorcios": "weddings_divorces_ross.csv",
+        "weddings": "weddings_divorces_ross.csv",
         "cameos": "friends_cameos.csv",
         "emotions": "friends_emotions.csv",
         "epiv3": "friends_episodes.csv",
-        "escenarios": "friends_sets.csv",
+        "sets": "friends_sets.csv",
         "info": "friends_info.csv",
         "quotes": "friends_quotes.csv",
         "friends": "friends.csv",
         "songs": "phoebe_buffay_songs.csv",
-        "pato_pollito": "duck_and_chicken.csv"
+        "dac": "duck_and_chicken.csv"
     }
 
     data = {}
@@ -52,12 +52,13 @@ def load_friends_data_raw(base_path="../data_raw"):
         logging.info(f"→ Cargando {filename}...")
 
         # Configuraciones especiales
-        if key == "epiv3":
-            df = pd.read_csv(file_path, encoding="latin-1")
-        elif key == "pato_pollito":
-            df = pd.read_csv(file_path, sep=";", encoding="latin-1")
-        else:
-            df = pd.read_csv(file_path)
+        # Dentro de tu bucle for en load_data.py
+        try:
+            # 1. Intentamos primero con UTF-8 con soporte para firmas de Excel (BOM)
+            df = pd.read_csv(file_path, sep=None, engine="python", encoding="utf-8-sig")
+        except UnicodeDecodeError:
+            # 2. Si falla por problemas de caracteres, lo cargamos con Latin-1
+            df = pd.read_csv(file_path, sep=None, engine="python", encoding="latin-1")
 
         data[key] = df
 
