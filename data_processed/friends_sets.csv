@@ -1,9 +1,9 @@
-stage,type,%_scenes,description,est_num_scenes
-Apartamento de Monica,Principal,38,El escenario con más tiempo de pantalla (cocina y salón de Monica).,1900
-Central Perk,Principal,24,"El punto de encuentro social, segundo en importancia.",1200
-Apartamento de Joey,Principal,18,El apartamento frente al de Monica.,900
-Pasillo (Hallway),Transición,5,Escenas de transición entre los dos apartamentos principales.,250
-Apartamento de Ross,Secundario,6,"Incluye su apartamento de soltero y el de ""Ugly Naked Guy"".",300
-Apartamento de Phoebe,Secundario,4,Aparece menos debido a que Phoebe vive más lejos.,200
-Oficina/Trabajos,Trabajo,3,"Museo de Ross, oficina de Chandler, Ralph Lauren, etc.",150
-Exteriores / Otros,Especial,2,"Escenas en la calle, taxis, y viajes (Londres, Vegas).",100
+set,type,%_scenes,description,est_num_scenes
+Monica's Apartment,Main,38,The set with the most screen time (Monica's kitchen and living room).,1900
+Central Perk,Main,24,The social meeting point, second in importance.,1200
+Joey's Apartment,Main,18,The apartment across from Monica's.,900
+Hallway,Transition,5,Transition scenes between the two main apartments.,250
+Ross's Apartment,Secondary,6,"Includes his bachelor apartment and the one from ""Ugly Naked Guy"".",300
+Phoebe's Apartment,Secondary,4,Appears less because Phoebe lives further away.,200
+Office/Workplaces,Work,3,"Ross's museum, Chandler's office, Ralph Lauren, etc.",150
+Outdoors / Others,Special,2,"Scenes in the street, taxis, and trips (London, Vegas).",100
