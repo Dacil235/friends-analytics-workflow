@@ -263,17 +263,3 @@ def process_friends_writers(df_info, output_path="../data_processed/writters.csv
     print(f"¡Fichero corregido con éxito! Guardado en: {out_path.resolve()} ({len(df_writers_clean)} filas).")
     
     return df_writers_clean
-
-# ==========================================================
-# EJEMPLO DE USO (Puedes borrar o comentar esto en tu archivo final)
-# ==========================================================
-if __name__ == "__main__":
-    # Supongamos que cargas tu dataframe desde la carpeta raw
-    try:
-        df_original_info = pd.read_csv("../data_raw/friends_info.csv")
-        
-        # Llamas a la función pasando tu DataFrame
-        df_procesado = process_friends_writers(df_original_info)
-        
-    except FileNotFoundError:
-        print("Nota: No se ejecutó el ejemplo automático porque no se encontró '../data_raw/friends_info.csv'.")
