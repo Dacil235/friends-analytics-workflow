@@ -151,7 +151,7 @@ def detectar_outliers_iqr(df, columna):
     return limite_superior, limite_inferior, len(outliers)
 
 
-def process_friends_writers(df_info, output_path="../data_processed/writters.csv"):
+def process_friends_writers(df_info, output_path="../data_processed/writers.csv"):
     """
     Procesa la columna 'written_by' del dataset de Friends, limpia anomalías
     de texto (nombres pegados, saltos de línea), desglosa los escritores en
@@ -214,10 +214,10 @@ def process_friends_writers(df_info, output_path="../data_processed/writters.csv
             # Guardamos los resultados clasificados asegurando que no se cuelen fragmentos de etiquetas
             for nom in nombres_story:
                 if "teleplay" not in nom.lower() and "story" not in nom.lower():
-                    rows_escritores.append({"season": sea, "episode": epi, "writter": nom, "rol": "Story"})
+                    rows_escritores.append({"season": sea, "episode": epi, "writer": nom})
             for nom in nombres_teleplay:
                 if "teleplay" not in nom.lower() and "story" not in nom.lower():
-                    rows_escritores.append({"season": sea, "episode": epi, "writter": nom, "rol": "Teleplay"})
+                    rows_escritores.append({"season": sea, "episode": epi, "writer": nom})
 
         # --- CASO B: ESCRITORES NORMALES (Sin etiquetas) ---
         else:
@@ -225,7 +225,7 @@ def process_friends_writers(df_info, output_path="../data_processed/writters.csv
             nombres = [n.strip() for n in limpio.split(',') if n.strip()]
             
             for nom in nombres:
-                rows_escritores.append({"season": sea, "episode": epi, "writter": nom, "rol": "Writer"})
+                rows_escritores.append({"season": sea, "episode": epi, "writer": nom})
 
     # 2. Convertir la lista en el DataFrame final
     df_writers_clean = pd.DataFrame(rows_escritores)
@@ -234,8 +234,8 @@ def process_friends_writers(df_info, output_path="../data_processed/writters.csv
     # === PASO DE RESCATE PARA FILAS ROTAS (Saltos de línea) ===
     # ==========================================================
     # A) Convertir strings vacíos en None para poder eliminarlos con dropna
-    df_writers_clean['writter'] = df_writers_clean['writter'].replace(r'^\s*$', None, regex=True)
-    df_writers_clean = df_writers_clean.dropna(subset=['writter'])
+    df_writers_clean['writer'] = df_writers_clean['writer'].replace(r'^\s*$', None, regex=True)
+    df_writers_clean = df_writers_clean.dropna(subset=['writer'])
 
     # B) Rellenar hacia abajo (ffill) las temporadas y episodios vacíos rotos por el "Enter" original
     df_writers_clean['season'] = df_writers_clean['season'].ffill()
@@ -247,13 +247,13 @@ def process_friends_writers(df_info, output_path="../data_processed/writters.csv
     # ==========================================================
 
     # 3. Limpieza estética final de los nombres
-    df_writers_clean['writter'] = df_writers_clean['writter'].str.title().str.strip()
+    df_writers_clean['writer'] = df_writers_clean['writer'].str.title().str.strip()
 
     # Eliminamos duplicados absolutos de filas por seguridad
     df_writers_clean = df_writers_clean.drop_duplicates()
 
     # Filtro de seguridad: Evitar textos basura residuales de menos de 3 caracteres
-    df_writers_clean = df_writers_clean[df_writers_clean['writter'].str.len() > 3]
+    df_writers_clean = df_writers_clean[df_writers_clean['writer'].str.len() > 3]
 
     # 4. Exportar el fichero limpio definitivo asegurando la existencia de la carpeta destino
     out_path = Path(output_path)
