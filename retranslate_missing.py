@@ -21,13 +21,13 @@ from deep_translator import GoogleTranslator
 # ── CONFIGURACIÓN ──────────────────────────────────────────────────────────────
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-INPUT_FILE  = "data_translated/friends_t1.csv"   # CSV con la traducción incompleta
-OUTPUT_FILE = "data_translated/friends_t2.csv"  # CSV resultante
+INPUT_FILE  = "notebooks/friends_quotes_clean.csv"   # CSV con la traducción incompleta
+OUTPUT_FILE = "notebooks/friends_quotes_clean_v2.csv"  # CSV resultante
 
 # Columnas que deben estar en español
-COLUMNS_TO_TRANSLATE = ["text"]  # ← ajusta a tus nombres reales
+COLUMNS_TO_TRANSLATE = ["autor","numero_episodio","titulo_episodio","cita","orden_cita","temporada"]  # ← ajusta a tus nombres reales
 
-BATCH_SIZE = 50    # textos por llamada a Google Translate
+BATCH_SIZE = 100    # textos por llamada a Google Translate
 SLEEP_SEC  = 0.5   # pausa entre llamadas para no saturar
 # ──────────────────────────────────────────────────────────────────────────────
 

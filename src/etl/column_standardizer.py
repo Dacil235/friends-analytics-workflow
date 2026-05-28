@@ -34,7 +34,13 @@ CANONICAL_MAP = {
     "numero_escenas_est" : "est_num_scenes",
     "cancion" : "song",
     "evento" : "event",
-    "detalle" : "detail"
+    "detalle" : "detail",
+    "text" : "texto",
+    "speaker": "personaje",
+    "season": "temporada",
+    "episode_number": "numero_episodio",
+    "scene": "escena",
+    "utterance": "orden_intervencion"
 }
 
 def standardize_columns(df: pd.DataFrame) -> pd.DataFrame:
