@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 from pathlib import Path
 import logging
 
@@ -67,6 +68,8 @@ def load_friends_data_raw(base_path="../data_raw"):
     return data
 
 
+
+
 def load_friends_data_translated(base_path="../data_translated/"):
     """
     Carga todos los CSV del proyecto Friends y devuelve un diccionario
@@ -125,3 +128,5 @@ def load_friends_data_translated(base_path="../data_translated/"):
 
     logging.info("Todos los datasets fueron cargados correctamente.")
     return data
+
+

@@ -25,7 +25,7 @@ INPUT_FILE  = "data_translated/friends_t1.csv"   # CSV con la traducción incomp
 OUTPUT_FILE = "data_translated/friends_t2.csv"  # CSV resultante
 
 # Columnas que deben estar en español
-COLUMNS_TO_TRANSLATE = ["cita", "titulo_episodio"]  # ← ajusta a tus nombres reales
+COLUMNS_TO_TRANSLATE = ["text"]  # ← ajusta a tus nombres reales
 
 BATCH_SIZE = 50    # textos por llamada a Google Translate
 SLEEP_SEC  = 0.5   # pausa entre llamadas para no saturar
