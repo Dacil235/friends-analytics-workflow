@@ -397,46 +397,6 @@ def exportar_filas_sospechosas_csv(path_in, path_out, columns, chunksize=50000):
 # Función para crear un archivo limpio de las posibles filas que contengan errores
 
 
-def cargar_filas_log(path_log):
-    """
-    Lee un archivo .log y extrae las filas completas registradas.
-    Devuelve una lista de diccionarios con los valores de cada fila.
-    """
-    filas = []
-    fila_actual = {}
-
-    try:
-        with open(path_log, "r", encoding="utf-8") as log:
-            for linea in log:
-                linea = linea.strip()
-
-                # Detectar inicio de fila
-                if linea.startswith("Fila "):
-                    if fila_actual:
-                        filas.append(fila_actual)
-                        fila_actual = {}
-                    continue
-
-                # Detectar pares clave:valor del row.to_string()
-                if ":" in linea:
-                    try:
-                        col, val = linea.split(":", 1)
-                        fila_actual[col.strip()] = val.strip()
-                    except ValueError:
-                        pass
-
-            # Añadir última fila si existe
-            if fila_actual:
-                filas.append(fila_actual)
-
-    except FileNotFoundError:
-        raise FileNotFoundError(f"No se encontró el archivo log: {path_log}")
-    except Exception as e:
-        raise RuntimeError(f"Error leyendo el log: {e}")
-
-    return filas
-
-
 def generar_archivo_limpio(path_in, path_log, path_out, chunksize=50000):
     """
     Elimina del CSV original todas las filas cuyo contenido coincida
