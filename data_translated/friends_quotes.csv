@@ -16282,7 +16282,7 @@ Rachel,19,La camiseta diminuta,Oh Dios. Lo siento por esto.,165,3.0
 Mark,19,La camiseta diminuta,Está bien.,166,3.0
 Rachel,19,La camiseta diminuta,¿Seguro?,167,3.0
 Mark,19,La camiseta diminuta,Sí. Puedo ir a casa y vengarme de él yo solo.,168,3.0
-SpokesMujer,19,La camiseta diminuta,"...se ha convertido en la penicilina del siglo XXI. Y por eso hoy, este hospital está a punto de dar pasos importantes para liderar esa revolución. Es realmente irónico, por un lado considere el tamaño...",169,3.0
+Spokesmujer,19,La camiseta diminuta,"...se ha convertido en la penicilina del siglo XXI. Y por eso hoy, este hospital está a punto de dar pasos importantes para liderar esa revolución. Es realmente irónico, por un lado considere el tamaño...",169,3.0
 Pete,19,La camiseta diminuta,"(a Monica) Oye, ¿puedo preguntarte algo?",170,3.0
 Monica,19,La camiseta diminuta,Seguro.,171,3.0
 Pete,19,La camiseta diminuta,¿Dónde estamos?,172,3.0
@@ -16300,7 +16300,7 @@ Monica,19,La camiseta diminuta,¿No lo es?,183,3.0
 Pete,19,La camiseta diminuta,"Sé que no soy John Bon Jovi (Monica se ríe) o alguien que lo encuentre atractivo, solo creo, ya sabes, que podrías terminar sintiéndote diferente.",184,3.0
 Monica,19,La camiseta diminuta,"Bueno, um, mira, no quiero que esto nos salga mal, pero ah, pareces muy confiado para ser un chico al que acabo de decir que tampoco me atraía.",185,3.0
 Pete,19,La camiseta diminuta,"Sí, estúpidamente encantador, ¿no? Bueno, escucha, ¿quieres comer algo? Porque este lugar es un poco deprimente. (empiezan a salir)",186,3.0
-SpokesMujer,19,La camiseta diminuta,Y el hombre que hizo todo esto posible... el Sr. Peter Becker.,187,3.0
+Spokesmujer,19,La camiseta diminuta,Y el hombre que hizo todo esto posible... el Sr. Peter Becker.,187,3.0
 Pete,19,La camiseta diminuta,(a Monica) Un segundo.,188,3.0
 Chandler,19,La camiseta diminuta,"No creo que esta ciudad sea lo suficientemente grande para que los dos podamos relajarnos. (Se sopla en la mano) ¡¡Dibuja!! (Rápidamente tira de la palanca para levantar el reposapiés, como un pistolero en una película del Oeste.)",189,3.0
 Chandler,19,La camiseta diminuta,"(a Joey) No estaba haciendo nada. (Joey comienza a tirar sus cosas enojado.) Uh-oh, ¿qué hizo ella ahora?",190,3.0
@@ -55264,7 +55264,6 @@ Monica,1,Joey y Rachel se besan,¿En realidad? Realmente no tengo ganas.,346,10.
 Chandler,1,Joey y Rachel se besan,Esto es lo que quiero hacer.,347,10.0
 Monica,1,Joey y Rachel se besan,"Vale, simplemente no entiendo por qué te gusta tanto.",348,10.0
 Chandler,1,Joey y Rachel se besan,"(Coge el DVD ""Miss Simpatía"") Ella es una agente del FBI que se hace pasar por una concursante de belleza.",349,10.0
-
 Joey,2,Ross está bien,"Vale, Ross, me doy cuenta de que no esperabas entrar y ver eso, pero... Déjame explicarte, ¿vale?",0,10.0
 Rachel,2,Ross está bien,¡No estábamos haciendo nada!,1,10.0
 Joey,2,Ross está bien,"Rach, acaba de vernos.",2,10.0
@@ -57334,18 +57333,18 @@ Ross,9,La madre biológica,"¿En realidad? Eso sería genial. Quiero decir, teng
 Joey,9,La madre biológica,"Puedo ver por qué, ¡bonita camisa!",54,10.0
 Ross,9,La madre biológica,Estás usando la misma camisa.,55,10.0
 Joey,9,La madre biológica,¡Estúpida brecha en cada esquina!,56,10.0
-Chico agencia,9,La madre biológica,"Por favor, ponte cómoda y volveré en un momento con Erica.",57,10.0
+Chico Agencia,9,La madre biológica,"Por favor, ponte cómoda y volveré en un momento con Erica.",57,10.0
 Monica,9,La madre biológica,"Ok, gracias. (El hombre se va) Uh, bueno, esto es todo. ¿Estás bien?",58,10.0
 Chandler,9,La madre biológica,"Sí. Simplemente raro, ¿sabes? Es como: ""Hola, soy Chandler. ¿Puedo hacer que el ser humano crezca dentro de ti?""",59,10.0
 Monica,9,La madre biológica,"Uh, vamos a estar geniales.",60,10.0
 Chandler,9,La madre biológica,Vas a estar genial.,61,10.0
 Monica,9,La madre biológica,Bueno... ¡obviamente!,62,10.0
-Chico agencia,9,La madre biológica,"(entra con Erica) Monica, Chandler. Me gustaría que conocieras a Erica.",63,10.0
+Chico Agencia,9,La madre biológica,"(entra con Erica) Monica, Chandler. Me gustaría que conocieras a Erica.",63,10.0
 Monica,9,La madre biológica,Hola. Es un placer conocerte.,64,10.0
 Erica,9,La madre biológica,(susurrando) Hola...,65,10.0
 Chandler,9,La madre biológica,Muchas gracias por aceptar vernos.,66,10.0
 Erica,9,La madre biológica,Hola.,67,10.0
-Chico agencia,9,La madre biológica,Dejaré que te familiarices.,68,10.0
+Chico Agencia,9,La madre biológica,Dejaré que te familiarices.,68,10.0
 Chandler,9,La madre biológica,De acuerdo.,69,10.0
 Erica,9,La madre biológica,"Entonces, son Monica y Chandler. Sólo te conozco como el archivo 0W33815-D.",70,10.0
 Chandler,9,La madre biológica,Así nos llaman nuestros amigos.,71,10.0
@@ -57415,13 +57414,13 @@ Erica,9,La madre biológica,Me preguntaba que ambos tenéis trabajos tan serios.
 Monica,9,La madre biológica,"Oh, ya sabes, mi rebaño es bueno, quiero decir, sí, mi rebaño prácticamente se cuida solo en este momento. Buen rebaño. Rebaño, rebaño, rebaño.",138,10.0
 Erica,9,La madre biológica,(a Chandler) Ser médico debe llevar mucho tiempo.,139,10.0
 Chandler,9,La madre biológica,"No, para mí no es así.",140,10.0
-Chico agencia,9,La madre biológica,"Entonces, ¿cómo va todo aquí?",141,10.0
+Chico Agencia,9,La madre biológica,"Entonces, ¿cómo va todo aquí?",141,10.0
 Erica,9,La madre biológica,"Estamos geniales, creo que ya hice todas mis preguntas.",142,10.0
 Chico De Agencia,9,La madre biológica,¿Tiene alguna pregunta para Erica?,143,10.0
 Chandler,9,La madre biológica,"Sí, en realidad. Entonces, ¿leíste un archivo que te gustó, le diste a la agencia el número de serie y se comunicaron con nosotros?",144,10.0
-Chico agencia,9,La madre biológica,"Sí, nuestro sistema garantiza un anonimato total. Estamos muy orgullosos de ello.",145,10.0
+Chico Agencia,9,La madre biológica,"Sí, nuestro sistema garantiza un anonimato total. Estamos muy orgullosos de ello.",145,10.0
 Chandler,9,La madre biológica,Deberías serlo. Realmente estás al tanto de todo...,146,10.0
-Chico agencia,9,La madre biológica,"(a Erica) Bueno, entonces si no hay nada más, entonces deberíamos hablar los dos.",147,10.0
+Chico Agencia,9,La madre biológica,"(a Erica) Bueno, entonces si no hay nada más, entonces deberíamos hablar los dos.",147,10.0
 Erica,9,La madre biológica,"En realidad, no creo que tengamos que hacerlo.",148,10.0
 Monica,9,La madre biológica,¿Nosotros no?,149,10.0
 Erica,9,La madre biológica,"Sí, cuando leí sobre ustedes dos, estaba bastante seguro de que los quería, pero pensé que deberíamos encontrarnos cara a cara. (al chico de la agencia). He tomado mi decisión. Yo los elijo.",150,10.0
@@ -57513,16 +57512,16 @@ Joey,9,La madre biológica,Ni siquiera lo siento.,236,10.0
 Erica,9,La madre biológica,¡Hola!,237,10.0
 Chico De La Agencia De Adopción,9,La madre biológica,Ey.,238,10.0
 Chandler,9,La madre biológica,Ey.,239,10.0
-Chico agencia,9,La madre biológica,"Estos son los formularios preliminares para una adopción abierta. Hay mucho que repasar, pero lo explicaré todo a medida que avancemos.",240,10.0
+Chico Agencia,9,La madre biológica,"Estos son los formularios preliminares para una adopción abierta. Hay mucho que repasar, pero lo explicaré todo a medida que avancemos.",240,10.0
 Monica,9,La madre biológica,(señalando una foto en la mesa) E-Es... ¿Es eso una foto?,241,10.0
 Erica,9,La madre biológica,"Sí. Es una ecografía que le hicieron al bebé la semana pasada. Pensé que quizás quisieras verlo. (se lo da a Monica, quien lo mira por un largo rato, y luego se lo muestra a Chandler)",242,10.0
 Monica,9,La madre biológica,"¡Mire, doctor!",243,10.0
-Chico agencia,9,La madre biológica,No entiendo.,244,10.0
+Chico Agencia,9,La madre biológica,No entiendo.,244,10.0
 Chandler,9,La madre biológica,La agencia debe haber cometido algún error. Mi esposa no es reverenda y yo no soy médico.,245,10.0
 Erica,9,La madre biológica,¿Qué?,246,10.0
-Chico agencia,9,La madre biológica,Eso es imposible.,247,10.0
+Chico Agencia,9,La madre biológica,Eso es imposible.,247,10.0
 Chandler,9,La madre biológica,Podría realizarte una operación y probarlo si quieres.,248,10.0
-Chico agencia,9,La madre biológica,Iré a revisar tu expediente. Disculpe.,249,10.0
+Chico Agencia,9,La madre biológica,Iré a revisar tu expediente. Disculpe.,249,10.0
 Erica,9,La madre biológica,Entonces ¿quién eres tú?,250,10.0
 Chandler,9,La madre biológica,"Bueno, nuestros nombres realmente son Monica y Chandler. Somos de Nueva York.",251,10.0
 Monica,9,La madre biológica,"Sí, pero lo importante que debemos saber sobre nosotros es cuánto cuidaríamos de este pequeño bebé. (sostiene la ecografía)",252,10.0

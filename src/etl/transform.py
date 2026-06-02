@@ -342,3 +342,14 @@ def limpiar_csv_con_sospechosas(path_in, path_sospechosas, path_out, chunksize=5
         raise RuntimeError(f"Error guardando el CSV limpio: {e}")
 
     return True
+
+def cambiar_formato_fecha(df, colum):
+    
+    # 1. Convertir la columna a tipo datetime (Pandas detecta el formato origen automáticamente la mayoría de las veces)
+    df[colum] = pd.to_datetime(df[colum], errors='coerce')
+    
+    # 2. Aplicamos el nuevo formato
+    #  %d = día, %m = mes, %Y = año de 4 dígitos, %H:%M = hora/minuto si tuviera
+    df[colum] = df[colum].dt.strftime('%d/%m/%Y')
+    
+    return df
