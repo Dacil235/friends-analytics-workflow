@@ -48,7 +48,6 @@ def has_formatting_anomalies(cell_text):
 
     return False
 
-
 def export_data_anomalies(path_in, path_out, target_columns, chunksize=50000):
     """
     Parses the input dataset in blocks, applies the anomaly filter dynamically across
@@ -64,7 +63,13 @@ def export_data_anomalies(path_in, path_out, target_columns, chunksize=50000):
         target_columns = [target_columns]
 
     # Stream processing via chunks to optimize memory allocation
-    for chunk in pd.read_csv(path_in, chunksize=chunksize):
+    for chunk in pd.read_csv(
+        path_in,
+        chunksize=chunksize,
+        on_bad_lines="skip",     # ← ignora filas corruptas
+        quoting=3,               # ← ignora comillas mal formadas
+        engine="python"          # ← parser más tolerante
+    ):
         # Generate a boolean mask aligned with the chunk's real index to prevent IndexingErrors
         mask = pd.Series([False] * len(chunk), index=chunk.index)
 
@@ -84,7 +89,9 @@ def export_data_anomalies(path_in, path_out, target_columns, chunksize=50000):
         df_anomalies = pd.concat(anomalies)
         
         # Enforce 'Original_Row_Index' as the primary tracking column at the front
-        ordered_columns = ['Original_Row_Index'] + [col for col in df_anomalies.columns if col != 'Original_Row_Index']
+        ordered_columns = ['Original_Row_Index'] + [
+            col for col in df_anomalies.columns if col != 'Original_Row_Index'
+        ]
         df_anomalies = df_anomalies[ordered_columns]
         
         df_anomalies.to_csv(path_out, index=False)

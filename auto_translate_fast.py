@@ -75,5 +75,5 @@ def translate_csv_fast(input_path, output_path):
 
 if __name__ == "__main__":
     INPUT_FILE = 'data_translated/friends.csv'
-    OUTPUT_FILE = 'data_translated/friends_t1.csv'
+    OUTPUT_FILE = 'data_translated/friends_tr.csv'
     translate_csv_fast(INPUT_FILE, OUTPUT_FILE)

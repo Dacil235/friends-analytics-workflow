@@ -1,5 +1,5 @@
 temporada,episodio,titulo,director,fecha_estreno,audiencia_millones,nota_imdb
-1,1,El de mónica consigue una compañera,James Burrows,1994-09-22,21.5,8.3
+1,1,El de Monica consigue una compañera,James Burrows,1994-09-22,21.5,8.3
 1,2,El del sonograma al final,James Burrows,1994-09-29,20.2,8.1
 1,3,El del pulgar,James Burrows,1994-10-06,19.5,8.2
 1,4,El de George Stephanopoulos,James Burrows,1994-10-13,19.7,8.1
@@ -19,7 +19,7 @@ temporada,episodio,titulo,director,fecha_estreno,audiencia_millones,nota_imdb
 1,18,El de todo el póker,James Burrows,1995-03-02,30.4,8.8
 1,19,En el que el mono se escapa,Peter Bonerz,1995-03-09,29.4,8.1
 1,20,El del ortodoncista malvado,Peter Bonerz,1995-04-06,30.0,7.9
-1,21,El de la falsa Mónica,Gail Mancuso,1995-04-27,28.4,7.9
+1,21,El de la falsa Monica,Gail Mancuso,1995-04-27,28.4,7.9
 1,22,El del factor asco,Robby Benson,1995-05-04,29.9,8.3
 1,23,El del nacimiento,James Burrows,1995-05-11,28.7,8.7
 1,24,En el que Rachel se entera,Kevin S. Bright,1995-05-18,31.3,8.9
@@ -59,7 +59,7 @@ temporada,episodio,titulo,director,fecha_estreno,audiencia_millones,nota_imdb
 3,10,En el que Rachel dimite,Terry Hughes,1996-12-12,25.1,8.1
 3,11,En el que Chandler no recuerda qué hermana,Terry Hughes,1997-01-09,29.8,8.6
 3,12,El de todos los celos,Robby Benson,1997-01-16,29.6,8.2
-3,13,En el que Mónica y Richard son solo amigos,Robby Benson,1997-01-30,28.0,8.2
+3,13,En el que Monica y Richard son solo amigos,Robby Benson,1997-01-30,28.0,8.2
 3,14,El de la ex compañera de Phoebe,Robby Benson,1997-02-06,28.9,7.9
 3,15,En el que Ross y Rachel se toman un descanso,James Burrows,1997-02-13,27.3,8.6
 3,16,El de la mañana siguiente,James Burrows,1997-02-20,28.3,9.1
@@ -145,7 +145,7 @@ temporada,episodio,titulo,director,fecha_estreno,audiencia_millones,nota_imdb
 6,23,El del anillo,Gary Halvorson,2000-05-11,20.9,8.6
 6,24,El de la proposición: Parte 1,Kevin S. Bright,2000-05-18,30.7,8.8
 6,25,El de la proposición: Parte 2,Kevin S. Bright,2000-05-18,30.7,9.3
-7,1,El del protagonismo de Mónica,Kevin S. Bright,2000-10-12,25.54,8.4
+7,1,El del protagonismo de Monica,Kevin S. Bright,2000-10-12,25.54,8.4
 7,2,El del libro de Rachel,Michael Lembeck,2000-10-12,27.93,8.3
 7,3,El de las galletas de Phoebe,Gary Halvorson,2000-10-19,22.7,8.1
 7,4,El del asistente de Rachel,David Schwimmer,2000-10-26,22.66,8.1
@@ -163,12 +163,12 @@ temporada,episodio,titulo,director,fecha_estreno,audiencia_millones,nota_imdb
 7,16,El de la verdad sobre Londres,David Schwimmer,2001-02-22,21.22,8.7
 7,17,El del vestido de novia barato,Kevin S. Bright,2001-03-15,20.84,8.4
 7,18,El del premio de Joey,Gary Halvorson,2001-03-29,17.81,8.4
-7,19,El de la prima de Ross y Mónica,Gary Halvorson,2001-04-19,16.55,8.7
+7,19,El de la prima de Ross y Monica,Gary Halvorson,2001-04-19,16.55,8.7
 7,20,El del gran beso de Rachel,Gary Halvorson,2001-04-26,16.3,8.4
 7,21,El de los votos,Gary Halvorson,2001-05-03,15.65,7.5
 7,22,El del padre de Chandler,Kevin S. Bright & Gary Halvorson,2001-05-10,17.23,8.4
-7,23,El de la boda de Mónica y Chandler: Parte 1,Kevin S. Bright,2001-05-17,30.05,8.9
-7,24,El de la boda de Mónica y Chandler: Parte 2,Kevin S. Bright,2001-05-17,30.05,9.2
+7,23,El de la boda de Monica y Chandler: Parte 1,Kevin S. Bright,2001-05-17,30.05,8.9
+7,24,El de la boda de Monica y Chandler: Parte 2,Kevin S. Bright,2001-05-17,30.05,9.2
 8,1,"El de después del 'Sí, quiero'",Kevin S. Bright,2001-09-27,31.7,8.7
 8,2,El del jersey rojo,David Schwimmer,2001-10-04,30.04,9.1
 8,3,En el que Rachel cuenta...,Sheldon Epps,2001-10-11,29.2,8.7
@@ -178,7 +178,7 @@ temporada,episodio,titulo,director,fecha_estreno,audiencia_millones,nota_imdb
 8,7,El de la mancha,Kevin S. Bright,2001-11-08,24.24,7.9
 8,8,El de la stripper,David Schwimmer,2001-11-15,26.54,8.8
 8,9,El del rumor,Gary Halvorson,2001-11-22,24.24,9.3
-8,10,El de las botas de Mónica,Kevin S. Bright,2001-12-06,22.44,8.1
+8,10,El de las botas de Monica,Kevin S. Bright,2001-12-06,22.44,8.1
 8,11,El del paso adelante de Ross,Gary Halvorson,2001-12-13,23.85,8.0
 8,12,En el que Joey tiene una cita con Rachel,David Schwimmer,2002-01-10,25.53,8.6
 8,13,En el que Chandler se da un baño,Ben Weiss,2002-01-17,29.24,8.6
@@ -205,7 +205,7 @@ temporada,episodio,titulo,director,fecha_estreno,audiencia_millones,nota_imdb
 9,10,El de la Navidad en Tulsa,Kevin S. Bright,2002-12-12,22.29,7.5
 9,11,En el que Rachel vuelve al trabajo,Gary Halvorson,2003-01-09,23.67,8.0
 9,12,El de las ratas de Phoebe,Ben Weiss,2003-01-16,23.66,8.0
-9,13,En el que Mónica canta,Gary Halvorson,2003-01-30,25.82,8.2
+9,13,En el que Monica canta,Gary Halvorson,2003-01-30,25.82,8.2
 9,14,El de las citas a ciegas,Gary Halvorson,2003-02-06,23.37,8.2
 9,15,El del atraco,Gary Halvorson,2003-02-13,20.85,8.3
 9,16,El de la operación de pecho,Gary Halvorson,2003-02-20,19.52,8.2

@@ -64,7 +64,7 @@ def translate_csv(input_path, output_path, limit=None):
 
 if __name__ == "__main__":
     INPUT_FILE = 'data_raw/friends_quotes.csv'
-    OUTPUT_FILE = 'data_translated/friends_quotes_auto.csv'
+    OUTPUT_FILE = 'data_translated/friends_quotes_tr.csv'
     
     # Si quieres hacer primero un test rápido, puedes cambiar limit=None por limit=10
     translate_csv(INPUT_FILE, OUTPUT_FILE, limit=None)
