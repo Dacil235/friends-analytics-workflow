@@ -102,21 +102,26 @@ def export_data_anomalies(path_in, path_out, target_columns, chunksize=50000):
         return pd.DataFrame()
 
 
+
 def sanitize_dataset_by_index(path_in, path_anomalies, path_out, chunksize=50000):
     """
     Removes invalid records from the source dataset using tracked row index numbers.
     This index-based lookup completely bypasses internal parsing text conflicts.
     
     Returns:
-        bool: True if the sanitization process completes successfully.
+        bool: True if the sanitization process completes successfully, False otherwise.
     """
+    # 1. Intentar leer el archivo de anomalías sin romper el flujo
     try:
         df_anomalies = pd.read_csv(path_anomalies)
     except FileNotFoundError:
-        raise FileNotFoundError(f"[ERROR] Anomalies tracking file not found at: {path_anomalies}")
+        print(f"[WARNING] Anomalies tracking file not found at: {path_anomalies}. Skipping sanitization.")
+        return False
     except Exception as e:
-        raise RuntimeError(f"[ERROR] Failed to read anomalies file: {e}")
+        print(f"[ERROR] Failed to read anomalies file due to unexpected error: {e}")
+        return False
 
+    # Si está vacío, informamos y salimos limpiamente
     if df_anomalies.empty:
         print("[INFO] Anomalies file is empty. Sanitization skipped.")
         return False
@@ -125,22 +130,26 @@ def sanitize_dataset_by_index(path_in, path_anomalies, path_out, chunksize=50000
     rows_to_remove = set(df_anomalies['Original_Row_Index'] - 2)
     clean_chunks = []
     
+    # 2. Intentar procesar el dataset de origen
     try:
         for chunk in pd.read_csv(path_in, chunksize=chunksize):
             # Highly optimized O(1) hash-set lookup to filter out target rows seamlessly
             chunk_clean = chunk[~chunk.index.isin(rows_to_remove)]
             clean_chunks.append(chunk_clean)
     except FileNotFoundError:
-        raise FileNotFoundError(f"[ERROR] Source dataset file not found at: {path_in}")
+        print(f"[ERROR] Source dataset file not found at: {path_in}")
+        return False
     except Exception as e:
-        raise RuntimeError(f"[ERROR] Error processing source dataset: {e}")
+        print(f"[ERROR] Error processing source dataset: {e}")
+        return False
 
-    # Concatenate and stream out the final clean dataset
+    # 3. Intentar concatenar y escribir el output final
     try:
         df_final = pd.concat(clean_chunks)
         df_final.to_csv(path_out, index=False)
         print(f"[SUCCESS] Dataset sanitization complete. Clean file saved at: {path_out}")
     except Exception as e:
-        raise RuntimeError(f"[ERROR] Failed to write sanitized dataset: {e}")
+        print(f"[ERROR] Failed to write sanitized dataset: {e}")
+        return False
 
     return True
