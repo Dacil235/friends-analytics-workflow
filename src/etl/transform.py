@@ -118,14 +118,17 @@ def min_datos (df):
 
     return df.columns
 
-def dato_a_int(valor):
-    ''' Función que pasa valores float a int, si es  False, None o texto devuelve el mismo valor'''
-
-    try:
-        # Convertimos a float y luego a int para quitar el .0
-        return int(float(valor))
-    except (ValueError, TypeError):
-        return valor
+def dato_a_int(df, columna):
+    ''' Convierte una columna float a int de un DataFrame.
+    Si el valor es NaN, None o no convertible, lo deja como está.
+    Args:
+        df (pd.DataFrame): DataFrame a modificar.
+        columna (str): Nombre de la columna a convertir.
+    Returns:
+        pd.DataFrame: DataFrame con la columna convertida.
+    '''
+    df[columna] = df[columna].apply(lambda x: int(float(x)) if pd.notna(x) else x)
+    return df
     
 def nulos_false_int(df):
     '''Función que le recibe una columna y rellena los nulos por "False" y aplica la función dato_a_int
@@ -346,7 +349,7 @@ def limpiar_csv_con_sospechosas(path_in, path_sospechosas, path_out, chunksize=5
 def cambiar_formato_fecha(df, colum):
     
     # 1. Convertir la columna a tipo datetime (Pandas detecta el formato origen automáticamente la mayoría de las veces)
-    df[colum] = pd.to_datetime(df[colum], errors='coerce')
+    df[colum] = pd.to_datetime(df[colum], errors='coerce', format="mixed")  # dayfirst=True para formatos con día antes que mes
     
     # 2. Aplicamos el nuevo formato
     #  %d = día, %m = mes, %Y = año de 4 dígitos, %H:%M = hora/minuto si tuviera

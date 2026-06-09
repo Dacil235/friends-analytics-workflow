@@ -1,237 +1,237 @@
-temporada,episodio,titulo,director,fecha_estreno,audiencia_millones,nota_imdb
-1,1,El de Monica consigue una compañera,James Burrows,1994-09-22,21.5,8.3
-1,2,El del sonograma al final,James Burrows,1994-09-29,20.2,8.1
-1,3,El del pulgar,James Burrows,1994-10-06,19.5,8.2
-1,4,El de George Stephanopoulos,James Burrows,1994-10-13,19.7,8.1
-1,5,El del detergente de Alemania Oriental,Pamela Fryman,1994-10-20,18.6,8.5
-1,6,El del culo,Arlene Sanford,1994-10-27,18.2,8.1
-1,7,El del apagón,James Burrows,1994-11-03,23.5,9.0
-1,8,En el que la abuela muere dos veces,James Burrows,1994-11-10,21.1,8.1
-1,9,En el que Underdog se escapa,James Burrows,1994-11-17,23.1,8.2
-1,10,El del mono,Peter Bonerz,1994-12-15,19.9,8.1
-1,11,El de la Sra. Bing,James Burrows,1995-01-05,26.6,8.2
-1,12,El de la docena de lasañas,Paul Lazarus,1995-01-12,24.0,8.2
-1,13,El de las tetas,Alan Myerson,1995-01-19,25.8,8.7
-1,14,El de los corazones de caramelo,James Burrows,1995-02-09,23.8,8.3
-1,15,El del tipo colgado,Alan Myerson,1995-02-16,24.8,8.2
-1,16,El de las dos partes: Parte 1,Michael Lembeck,1995-02-23,26.1,8.2
-1,17,El de las dos partes: Parte 2,Michael Lembeck,1995-02-23,30.5,8.5
-1,18,El de todo el póker,James Burrows,1995-03-02,30.4,8.8
-1,19,En el que el mono se escapa,Peter Bonerz,1995-03-09,29.4,8.1
-1,20,El del ortodoncista malvado,Peter Bonerz,1995-04-06,30.0,7.9
-1,21,El de la falsa Monica,Gail Mancuso,1995-04-27,28.4,7.9
-1,22,El del factor asco,Robby Benson,1995-05-04,29.9,8.3
-1,23,El del nacimiento,James Burrows,1995-05-11,28.7,8.7
-1,24,En el que Rachel se entera,Kevin S. Bright,1995-05-18,31.3,8.9
-2,1,El de la nueva novia de Ross,Michael Lembeck,1995-09-21,32.1,8.5
-2,2,El de la leche materna,Michael Lembeck,1995-09-28,29.8,8.2
-2,3,En el que muere Heckles,Kevin S. Bright,1995-10-05,30.2,8.4
-2,4,El del marido de Phoebe,Gail Mancuso,1995-10-12,28.1,8.0
-2,5,El de los cinco filetes y una berenjena,Ellen Gittelsohn,1995-10-19,28.3,8.3
-2,6,El del bebé en el autobús,Gail Mancuso,1995-11-02,30.2,8.6
-2,7,En el que Ross se entera,Peter Bonerz,1995-11-09,30.5,9.0
-2,8,El de la lista,Mary Kay Place,1995-11-16,32.9,8.5
-2,9,El del padre de Phoebe,Kevin S. Bright,1995-12-14,27.8,8.0
-2,10,El de Russ,Thomas Schlamme,1996-01-04,32.2,8.0
-2,11,El de la boda lesbiana,Thomas Schlamme,1996-01-18,31.6,8.1
-2,12,El de después de la Superbowl: Parte 1,Michael Lembeck,1996-01-28,52.9,8.6
-2,13,El de después de la Superbowl: Parte 2,Michael Lembeck,1996-01-28,52.9,8.8
-2,14,El del vídeo de la promoción,James Burrows,1996-02-01,33.6,9.4
-2,15,En el que Ross y Rachel... ya sabes,Michael Lembeck,1996-02-08,32.9,8.9
-2,16,En el que Joey se muda,Michael Lembeck,1996-02-15,31.1,8.6
-2,17,En el que Eddie se muda,Michael Lembeck,1996-02-22,30.2,8.3
-2,18,En el que el Dr. Ramoray muere,Michael Lembeck,1996-03-21,30.1,8.5
-2,19,En el que Eddie no se quiere ir,Michael Lembeck,1996-03-28,31.2,8.6
-2,20,En el que muere el viejo Yeller,Michael Lembeck,1996-04-04,27.4,8.2
-2,21,El de los matones,Michael Lembeck,1996-04-25,24.7,8.2
-2,22,El de las dos fiestas,Michael Lembeck,1996-05-02,25.5,9.0
-2,23,El de la varicela,Michael Lembeck,1996-05-09,26.1,8.1
-2,24,El de la boda de Barry y Mindy,Michael Lembeck,1996-05-16,29.0,8.2
-3,1,El de la fantasía de la princesa Leia,Gail Mancuso,1996-09-19,26.8,8.4
-3,2,En el que nadie está listo,Gail Mancuso,1996-09-26,26.7,9.0
-3,3,El de la mermelada,Kevin S. Bright,1996-10-03,25.2,8.1
-3,4,El del túnel metafórico,Steve Zuckerman,1996-10-10,26.1,8.1
-3,5,El de Frank Jr.,Steve Zuckerman,1996-10-17,23.3,8.1
-3,6,El del flashback,Peter Bonerz,1996-10-31,23.3,9.1
-3,7,El de la cama de coche de carreras,Gail Mancuso,1996-11-07,27.4,8.3
-3,8,El del artefacto gigante para pinchar,Gail Mancuso,1996-11-14,28.7,8.4
-3,9,El del fútbol americano,Kevin S. Bright,1996-11-21,29.3,9.0
-3,10,En el que Rachel dimite,Terry Hughes,1996-12-12,25.1,8.1
-3,11,En el que Chandler no recuerda qué hermana,Terry Hughes,1997-01-09,29.8,8.6
-3,12,El de todos los celos,Robby Benson,1997-01-16,29.6,8.2
-3,13,En el que Monica y Richard son solo amigos,Robby Benson,1997-01-30,28.0,8.2
-3,14,El de la ex compañera de Phoebe,Robby Benson,1997-02-06,28.9,7.9
-3,15,En el que Ross y Rachel se toman un descanso,James Burrows,1997-02-13,27.3,8.6
-3,16,El de la mañana siguiente,James Burrows,1997-02-20,28.3,9.1
-3,17,El de sin el viaje de esquí,Sam Simon,1997-03-06,25.8,8.3
-3,18,El de la cinta de hipnosis,Robby Benson,1997-03-13,28.1,8.4
-3,19,El de la camiseta diminuta,Terry Hughes,1997-03-27,23.7,8.2
-3,20,El de la casa de muñecas,Terry Hughes,1997-04-10,24.4,8.1
-3,21,El del pollito y el pato,Michael Lembeck,1997-04-17,23.2,8.7
-3,22,El del gritón,Peter Bonerz,1997-04-24,22.6,8.3
-3,23,El de la cosa de Ross,Shelley Jensen,1997-05-01,24.2,8.1
-3,24,El del campeón de lucha definitiva,Robby Benson,1997-05-08,23.1,8.1
-3,25,El de la playa,Pamela Fryman,1997-05-15,28.8,8.8
-4,1,El de la medusa,Shelley Jensen,1997-09-25,29.4,9.1
-4,2,El del gato,Shelley Jensen,1997-10-02,25.5,8.1
-4,3,El de las esposas,Peter Bonerz,1997-10-09,24.0,8.5
-4,4,El del baile de salón,Gail Mancuso,1997-10-16,24.3,8.2
-4,5,El de la nueva novia de Joey,Gail Mancuso,1997-10-30,24.4,8.4
-4,6,El de la chica sucia,Shelley Jensen,1997-11-06,25.7,8.5
-4,7,En el que Chandler cruza la línea,Kevin S. Bright,1997-11-13,26.4,8.7
-4,8,El de Chandler en una caja,Peter Bonerz,1997-11-20,26.8,9.1
-4,9,En el que van de fiesta,Peter Bonerz,1997-12-11,23.9,7.9
-4,10,El de la chica de Poughkeepsie,Gary Halvorson,1997-12-18,23.2,8.1
-4,11,El del útero de Phoebe,David Steinberg,1998-01-08,23.7,8.5
-4,12,El de los embriones,Kevin S. Bright,1998-01-15,27.1,9.5
-4,13,El del flechazo de Rachel,Dana DeVally Piazza,1998-01-29,25.3,8.2
-4,14,El del día sucio de Joey,Peter Bonerz,1998-02-05,25.1,8.2
-4,15,El de todo el rugby,James Burrows,1998-02-26,24.4,8.5
-4,16,El de la fiesta falsa,Michael Lembeck,1998-03-19,23.1,8.2
-4,17,El del porno gratis,Michael Lembeck,1998-03-26,23.2,8.6
-4,18,El del nuevo vestido de Rachel,Gail Mancuso,1998-04-02,21.7,8.3
-4,19,El de toda la prisa,Kevin S. Bright,1998-04-09,21.8,8.7
-4,20,El de todos los vestidos de novia,Gail Mancuso,1998-04-16,21.9,8.5
-4,21,El de la invitación,Peter Bonerz,1998-04-23,21.5,7.2
-4,22,El del peor padrino de la historia,Peter Bonerz,1998-04-30,23.2,8.5
-4,23,El de la boda de Ross: Parte 1,Kevin S. Bright,1998-05-07,31.6,8.7
-4,24,El de la boda de Ross: Parte 2,Kevin S. Bright,1998-05-07,31.6,9.2
-5,1,El de después de que Ross diga Rachel,Kevin S. Bright,1998-09-24,31.1,8.9
-5,2,El de todos los besos,Gary Halvorson,1998-10-01,25.4,9.0
-5,3,El del centenario,Kevin S. Bright,1998-10-08,26.8,8.8
-5,4,En el que Phoebe odia el PBS,Shelley Jensen,1998-10-15,24.1,8.3
-5,5,El de los Kips,Dana DeValley Piazza,1998-10-29,25.9,8.8
-5,6,El del Yeti,Gary Halvorson,1998-11-05,25.0,8.1
-5,7,En el que Ross se muda,Gary Halvorson,1998-11-12,24.4,8.4
-5,8,El de todos los Acciones de Gracias,Kevin S. Bright,1998-11-19,23.9,9.2
-5,9,El del sándwich de Ross,Gary Halvorson,1998-12-10,23.0,9.1
-5,10,El de la hermana inapropiada,Dana DeValley Piazza,1998-12-17,23.7,8.2
-5,11,El de todos los propósitos,Joe Regalbuto,1999-01-07,27.0,9.1
-5,12,El de la risa de trabajo de Chandler,Kevin S. Bright,1999-01-21,24.8,8.3
-5,13,El del bolso de Joey,Gail Mancuso,1999-02-04,24.9,8.1
-5,14,En el que todos se enteran,Michael Lembeck,1999-02-11,27.7,9.7
-5,15,El de la chica que pega a Joey,Kevin S. Bright,1999-02-18,29.3,8.5
-5,16,El del policía,Andrew Tsao,1999-02-25,26.0,8.6
-5,17,El del beso involuntario de Rachel,Shelley Jensen,1999-03-18,24.5,8.5
-5,18,En el que Rachel fuma,Todd Holland,1999-04-08,21.9,8.0
-5,19,En el que Ross no sabe ligar,Gail Mancuso,1999-04-22,20.9,8.7
-5,20,El del patrullaje,Gary Halvorson,1999-04-29,19.6,8.3
-5,21,El de la pelota,Gary Halvorson,1999-05-06,20.9,8.5
-5,22,El de la gran oportunidad de Joey,Gary Halvorson,1999-05-13,21.3,8.3
-5,23,El de Las Vegas: Parte 1,Kevin S. Bright,1999-05-20,25.9,8.8
-5,24,El de Las Vegas: Parte 2,Kevin S. Bright,1999-05-20,25.9,9.1
-6,1,El de después de Las Vegas,Kevin S. Bright,1999-09-23,27.7,8.7
-6,2,En el que Ross abraza a Rachel,Gail Mancuso,1999-09-30,22.9,8.2
-6,3,El de la negación de Ross,Gary Halvorson,1999-10-07,21.6,8.2
-6,4,En el que Joey pierde su seguro,Gary Halvorson,1999-10-14,21.1,8.5
-6,5,El del Porsche de Joey,Gary Halvorson,1999-10-21,22.4,8.2
-6,6,El de la última noche,David Schwimmer,1999-11-04,23.6,8.5
-6,7,En el que Phoebe corre,Gary Halvorson,1999-11-11,22.7,8.4
-6,8,El de los dientes de Ross,Gary Halvorson,1999-11-18,22.1,8.5
-6,9,En el que Ross se colocó,Kevin S. Bright,1999-11-25,19.2,9.2
-6,10,El de la coreografía,Kevin S. Bright,1999-12-16,22.4,8.6
-6,11,El de la mesa de boticario,Kevin S. Bright,2000-01-06,22.3,8.1
-6,12,El del chiste,Gary Halvorson,2000-01-13,22.3,8.1
-6,13,El de la hermana de Rachel,Gary Halvorson,2000-02-03,24.1,8.2
-6,14,En el que Chandler no puede llorar,Kevin S. Bright,2000-02-10,23.8,8.6
-6,15,El de lo que pudo haber sido: Parte 1,Michael Lembeck,2000-02-17,20.7,8.5
-6,16,El de lo que pudo haber sido: Parte 2,Michael Lembeck,2000-02-17,20.7,8.5
-6,17,El de Unagi,Gary Halvorson,2000-02-24,22.1,9.1
-6,18,En el que Ross sale con una estudiante,Gary Halvorson,2000-03-09,20.5,8.3
-6,19,El de la nevera de Joey,Ben Weiss,2000-03-23,21.5,8.3
-6,20,El de Mac y C.H.E.E.S.E.,Kevin S. Bright,2000-04-13,18.8,7.4
-6,21,En el que Ross conoce al padre de Elizabeth,Michael Lembeck,2000-04-27,20.6,8.6
-6,22,En el que Paul es el hombre,Gary Halvorson,2000-05-04,20.0,9.0
-6,23,El del anillo,Gary Halvorson,2000-05-11,20.9,8.6
-6,24,El de la proposición: Parte 1,Kevin S. Bright,2000-05-18,30.7,8.8
-6,25,El de la proposición: Parte 2,Kevin S. Bright,2000-05-18,30.7,9.3
-7,1,El del protagonismo de Monica,Kevin S. Bright,2000-10-12,25.54,8.4
-7,2,El del libro de Rachel,Michael Lembeck,2000-10-12,27.93,8.3
-7,3,El de las galletas de Phoebe,Gary Halvorson,2000-10-19,22.7,8.1
-7,4,El del asistente de Rachel,David Schwimmer,2000-10-26,22.66,8.1
-7,5,El de la foto de compromiso,Gary Halvorson,2000-11-02,24.43,8.1
-7,6,El de los compañeros de siesta,Gary Halvorson,2000-11-09,22.01,8.9
-7,7,El del libro de la biblioteca de Ross,David Schwimmer,2000-11-16,23.73,8.5
-7,8,En el que a Chandler no le gustan los perros,Kevin S. Bright,2000-11-23,16.57,8.2
-7,9,El de todos los caramelos,David Schwimmer,2000-12-07,21.08,8.1
-7,10,El del Armadillo Navideño,Gary Halvorson,2000-12-14,23.26,8.5
-7,11,El de todas las tartas de queso,Gary Halvorson,2001-01-04,24.37,8.6
-7,12,En el que están despiertos toda la noche,Kevin S. Bright,2001-01-11,22.86,8.7
-7,13,En el que muere Rosita,Stephen Prime,2001-02-01,22.24,8.4
-7,14,En el que todos cumplen treinta,Ben Weiss,2001-02-08,22.4,8.6
-7,15,El del nuevo cerebro de Joey,Kevin S. Bright,2001-02-15,21.75,8.4
-7,16,El de la verdad sobre Londres,David Schwimmer,2001-02-22,21.22,8.7
-7,17,El del vestido de novia barato,Kevin S. Bright,2001-03-15,20.84,8.4
-7,18,El del premio de Joey,Gary Halvorson,2001-03-29,17.81,8.4
-7,19,El de la prima de Ross y Monica,Gary Halvorson,2001-04-19,16.55,8.7
-7,20,El del gran beso de Rachel,Gary Halvorson,2001-04-26,16.3,8.4
-7,21,El de los votos,Gary Halvorson,2001-05-03,15.65,7.5
-7,22,El del padre de Chandler,Kevin S. Bright & Gary Halvorson,2001-05-10,17.23,8.4
-7,23,El de la boda de Monica y Chandler: Parte 1,Kevin S. Bright,2001-05-17,30.05,8.9
-7,24,El de la boda de Monica y Chandler: Parte 2,Kevin S. Bright,2001-05-17,30.05,9.2
-8,1,"El de después del 'Sí, quiero'",Kevin S. Bright,2001-09-27,31.7,8.7
-8,2,El del jersey rojo,David Schwimmer,2001-10-04,30.04,9.1
-8,3,En el que Rachel cuenta...,Sheldon Epps,2001-10-11,29.2,8.7
-8,4,El de la cinta de vídeo,Kevin S. Bright,2001-10-18,25.58,9.3
-8,5,El de la cita de Rachel,Gary Halvorson,2001-10-25,25.64,8.1
-8,6,El de la fiesta de Halloween,Gary Halvorson,2001-11-01,26.96,8.5
-8,7,El de la mancha,Kevin S. Bright,2001-11-08,24.24,7.9
-8,8,El de la stripper,David Schwimmer,2001-11-15,26.54,8.8
-8,9,El del rumor,Gary Halvorson,2001-11-22,24.24,9.3
-8,10,El de las botas de Monica,Kevin S. Bright,2001-12-06,22.44,8.1
-8,11,El del paso adelante de Ross,Gary Halvorson,2001-12-13,23.85,8.0
-8,12,En el que Joey tiene una cita con Rachel,David Schwimmer,2002-01-10,25.53,8.6
-8,13,En el que Chandler se da un baño,Ben Weiss,2002-01-17,29.24,8.6
-8,14,El del armario secreto,Kevin S. Bright,2002-01-31,28.64,8.2
-8,15,El del vídeo del nacimiento,Kevin S. Bright,2002-02-07,28.64,8.4
-8,16,En el que Joey se lo dice a Rachel,Ben Weiss,2002-02-28,27.52,8.3
-8,17,El de las hojas de té,Gary Halvorson,2002-03-07,26.3,8.1
-8,18,El de Massapequa,Gary Halvorson,2002-03-28,22.05,8.2
-8,19,El de la entrevista de Joey,Gary Halvorson,2002-04-04,22.59,7.5
-8,20,El de la fiesta del bebé,Kevin S. Bright,2002-04-25,22.24,8.2
-8,21,El de la clase de cocina,Gary Halvorson,2002-05-02,23.97,8.2
-8,22,En el que Rachel se retrasa,Gary Halvorson,2002-05-09,24.32,8.3
-8,23,En el que Rachel tiene un bebé: Parte 1,Kevin S. Bright,2002-05-16,34.91,8.8
-8,24,En el que Rachel tiene un bebé: Parte 2,Kevin S. Bright,2002-05-16,34.91,8.9
-9,1,En el que nadie se declara,Kevin S. Bright,2002-09-26,34.01,8.6
-9,2,En el que Emma llora,Sheldon Epps,2002-10-03,28.93,8.6
-9,3,El del pediatra,Roger Christiansen,2002-10-10,26.63,8.2
-9,4,El de los tiburones,Ben Weiss,2002-10-17,25.82,8.2
-9,5,El de la cena de cumpleaños de Phoebe,David Schwimmer,2002-10-31,24.46,8.5
-9,6,El del niñero,Kevin S. Bright,2002-11-07,27.51,8.4
-9,7,El de la canción inapropiada de Ross,Gary Halvorson,2002-11-14,25.35,8.7
-9,8,El de la otra hermana de Rachel,Kevin S. Bright,2002-11-21,26.76,8.8
-9,9,El del número de teléfono de Rachel,Ben Weiss,2002-12-05,25.43,8.2
-9,10,El de la Navidad en Tulsa,Kevin S. Bright,2002-12-12,22.29,7.5
-9,11,En el que Rachel vuelve al trabajo,Gary Halvorson,2003-01-09,23.67,8.0
-9,12,El de las ratas de Phoebe,Ben Weiss,2003-01-16,23.66,8.0
-9,13,En el que Monica canta,Gary Halvorson,2003-01-30,25.82,8.2
-9,14,El de las citas a ciegas,Gary Halvorson,2003-02-06,23.37,8.2
-9,15,El del atraco,Gary Halvorson,2003-02-13,20.85,8.3
-9,16,El de la operación de pecho,Gary Halvorson,2003-02-20,19.52,8.2
-9,17,El del funeral,Gary Halvorson,2003-03-13,21.0,8.5
-9,18,El de la lotería,Gary Halvorson,2003-04-03,20.79,8.6
-9,19,El del sueño de Rachel,Terry Hughes,2003-04-17,18.25,8.1
-9,20,El de la fiesta de los actores de telenovela,Sheldon Epps,2003-04-24,20.71,8.3
-9,21,El de las pruebas de fertilidad,Gary Halvorson,2003-05-01,19.03,8.2
-9,22,El del donante,Ben Weiss,2003-05-08,19.55,7.8
-9,23,El de Barbados: Parte 1,Kevin S. Bright,2003-05-15,25.46,8.5
-9,24,El de Barbados: Parte 2,Kevin S. Bright,2003-05-15,25.46,8.7
-10,1,El de después del beso de Joey y Rachel,Kevin S. Bright,2003-09-25,24.54,8.5
-10,2,En el que Ross está bien,Ben Weiss,2003-10-02,22.38,8.8
-10,3,El del bronceado de Ross,Gary Halvorson,2003-10-09,21.87,8.8
-10,4,El de la tarta,Gary Halvorson,2003-10-23,18.77,8.3
-10,5,En el que la hermana de Rachel cuida a Emma,Roger Christiansen,2003-10-30,19.37,8.2
-10,6,El de la beca de Ross,Ben Weiss,2003-11-06,20.38,8.2
-10,7,El del estudio del hogar,Kevin S. Bright,2003-11-13,20.21,8.3
-10,8,El del Acción de Gracias tardío,Gary Halvorson,2003-11-20,20.66,8.9
-10,9,El de la madre biológica,David Schwimmer,2004-01-08,25.49,8.6
-10,10,En el que pillan a Chandler,Gary Halvorson,2004-01-15,26.68,8.0
-10,11,En el que la stripper llora,Kevin S. Bright,2004-02-05,24.91,9.0
-10,12,El de la boda de Phoebe,Kevin S. Bright,2004-02-12,25.9,8.9
-10,13,En el que Joey habla francés,Gary Halvorson,2004-02-19,24.27,8.5
-10,14,El de la Princesa Consuela,Gary Halvorson,2004-02-26,22.83,8.6
-10,15,En el que muere Estelle,Gary Halvorson,2004-04-22,22.64,8.5
-10,16,El de la fiesta de despedida de Rachel,Gary Halvorson,2004-04-29,24.51,8.9
-10,17,El último: Parte 1,Kevin S. Bright,2004-05-06,52.46,9.7
-10,18,El último: Parte 2,Kevin S. Bright,2004-05-06,52.46,9.7
+temporada,numero_episodio,titulo_episodio,director,fecha_estreno,audiencia_millones,nota_imdb
+1,1,El de Monica consigue una compañera,James Burrows,22/09/1994,21.5,8.3
+1,2,El del sonograma al final,James Burrows,29/09/1994,20.2,8.1
+1,3,El del pulgar,James Burrows,10/06/1994,19.5,8.2
+1,4,El de George Stephanopoulos,James Burrows,13/10/1994,19.7,8.1
+1,5,El del detergente de Alemania Oriental,Pamela Fryman,20/10/1994,18.6,8.5
+1,6,El del culo,Arlene Sanford,27/10/1994,18.2,8.1
+1,7,El del apagón,James Burrows,11/03/1994,23.5,9.0
+1,8,En el que la abuela muere dos veces,James Burrows,11/10/1994,21.1,8.1
+1,9,En el que Underdog se escapa,James Burrows,17/11/1994,23.1,8.2
+1,10,El del mono,Peter Bonerz,15/12/1994,19.9,8.1
+1,11,El de la Sra. Bing,James Burrows,01/05/1995,26.6,8.2
+1,12,El de la docena de lasañas,Paul Lazarus,01/12/1995,24.0,8.2
+1,13,El de las tetas,Alan Myerson,19/01/1995,25.8,8.7
+1,14,El de los corazones de caramelo,James Burrows,02/09/1995,23.8,8.3
+1,15,El del tipo colgado,Alan Myerson,16/02/1995,24.8,8.2
+1,16,El de las dos partes: Parte 1,Michael Lembeck,23/02/1995,26.1,8.2
+1,17,El de las dos partes: Parte 2,Michael Lembeck,23/02/1995,30.5,8.5
+1,18,El de todo el póker,James Burrows,03/02/1995,30.4,8.8
+1,19,En el que el mono se escapa,Peter Bonerz,03/09/1995,29.4,8.1
+1,20,El del ortodoncista malvado,Peter Bonerz,04/06/1995,30.0,7.9
+1,21,El de la falsa Monica,Gail Mancuso,27/04/1995,28.4,7.9
+1,22,El del factor asco,Robby Benson,05/04/1995,29.9,8.3
+1,23,El del nacimiento,James Burrows,05/11/1995,28.7,8.7
+1,24,En el que Rachel se entera,Kevin S. Bright,18/05/1995,31.3,8.9
+2,1,El de la nueva novia de Ross,Michael Lembeck,21/09/1995,32.1,8.5
+2,2,El de la leche materna,Michael Lembeck,28/09/1995,29.8,8.2
+2,3,En el que muere Heckles,Kevin S. Bright,10/05/1995,30.2,8.4
+2,4,El del marido de Phoebe,Gail Mancuso,10/12/1995,28.1,8.0
+2,5,El de los cinco filetes y una berenjena,Ellen Gittelsohn,19/10/1995,28.3,8.3
+2,6,El del bebé en el autobús,Gail Mancuso,11/02/1995,30.2,8.6
+2,7,En el que Ross se entera,Peter Bonerz,11/09/1995,30.5,9.0
+2,8,El de la lista,Mary Kay Place,16/11/1995,32.9,8.5
+2,9,El del padre de Phoebe,Kevin S. Bright,14/12/1995,27.8,8.0
+2,10,El de Russ,Thomas Schlamme,01/04/1996,32.2,8.0
+2,11,El de la boda lesbiana,Thomas Schlamme,18/01/1996,31.6,8.1
+2,12,El de después de la Superbowl: Parte 1,Michael Lembeck,28/01/1996,52.9,8.6
+2,13,El de después de la Superbowl: Parte 2,Michael Lembeck,28/01/1996,52.9,8.8
+2,14,El del vídeo de la promoción,James Burrows,02/01/1996,33.6,9.4
+2,15,En el que Ross y Rachel... ya sabes,Michael Lembeck,02/08/1996,32.9,8.9
+2,16,En el que Joey se muda,Michael Lembeck,15/02/1996,31.1,8.6
+2,17,En el que Eddie se muda,Michael Lembeck,22/02/1996,30.2,8.3
+2,18,En el que el Dr. Ramoray muere,Michael Lembeck,21/03/1996,30.1,8.5
+2,19,En el que Eddie no se quiere ir,Michael Lembeck,28/03/1996,31.2,8.6
+2,20,En el que muere el viejo Yeller,Michael Lembeck,04/04/1996,27.4,8.2
+2,21,El de los matones,Michael Lembeck,25/04/1996,24.7,8.2
+2,22,El de las dos fiestas,Michael Lembeck,05/02/1996,25.5,9.0
+2,23,El de la varicela,Michael Lembeck,05/09/1996,26.1,8.1
+2,24,El de la boda de Barry y Mindy,Michael Lembeck,16/05/1996,29.0,8.2
+3,1,El de la fantasía de la princesa Leia,Gail Mancuso,19/09/1996,26.8,8.4
+3,2,En el que nadie está listo,Gail Mancuso,26/09/1996,26.7,9.0
+3,3,El de la mermelada,Kevin S. Bright,10/03/1996,25.2,8.1
+3,4,El del túnel metafórico,Steve Zuckerman,10/10/1996,26.1,8.1
+3,5,El de Frank Jr.,Steve Zuckerman,17/10/1996,23.3,8.1
+3,6,El del flashback,Peter Bonerz,31/10/1996,23.3,9.1
+3,7,El de la cama de coche de carreras,Gail Mancuso,11/07/1996,27.4,8.3
+3,8,El del artefacto gigante para pinchar,Gail Mancuso,14/11/1996,28.7,8.4
+3,9,El del fútbol americano,Kevin S. Bright,21/11/1996,29.3,9.0
+3,10,En el que Rachel dimite,Terry Hughes,12/12/1996,25.1,8.1
+3,11,En el que Chandler no recuerda qué hermana,Terry Hughes,01/09/1997,29.8,8.6
+3,12,El de todos los celos,Robby Benson,16/01/1997,29.6,8.2
+3,13,En el que Monica y Richard son solo amigos,Robby Benson,30/01/1997,28.0,8.2
+3,14,El de la ex compañera de Phoebe,Robby Benson,02/06/1997,28.9,7.9
+3,15,En el que Ross y Rachel se toman un descanso,James Burrows,13/02/1997,27.3,8.6
+3,16,El de la mañana siguiente,James Burrows,20/02/1997,28.3,9.1
+3,17,El de sin el viaje de esquí,Sam Simon,03/06/1997,25.8,8.3
+3,18,El de la cinta de hipnosis,Robby Benson,13/03/1997,28.1,8.4
+3,19,El de la camiseta diminuta,Terry Hughes,27/03/1997,23.7,8.2
+3,20,El de la casa de muñecas,Terry Hughes,04/10/1997,24.4,8.1
+3,21,El del pollito y el pato,Michael Lembeck,17/04/1997,23.2,8.7
+3,22,El del gritón,Peter Bonerz,24/04/1997,22.6,8.3
+3,23,El de la cosa de Ross,Shelley Jensen,05/01/1997,24.2,8.1
+3,24,El del campeón de lucha definitiva,Robby Benson,05/08/1997,23.1,8.1
+3,25,El de la playa,Pamela Fryman,15/05/1997,28.8,8.8
+4,1,El de la medusa,Shelley Jensen,25/09/1997,29.4,9.1
+4,2,El del gato,Shelley Jensen,10/02/1997,25.5,8.1
+4,3,El de las esposas,Peter Bonerz,10/09/1997,24.0,8.5
+4,4,El del baile de salón,Gail Mancuso,16/10/1997,24.3,8.2
+4,5,El de la nueva novia de Joey,Gail Mancuso,30/10/1997,24.4,8.4
+4,6,El de la chica sucia,Shelley Jensen,11/06/1997,25.7,8.5
+4,7,En el que Chandler cruza la línea,Kevin S. Bright,13/11/1997,26.4,8.7
+4,8,El de Chandler en una caja,Peter Bonerz,20/11/1997,26.8,9.1
+4,9,En el que van de fiesta,Peter Bonerz,12/11/1997,23.9,7.9
+4,10,El de la chica de Poughkeepsie,Gary Halvorson,18/12/1997,23.2,8.1
+4,11,El del útero de Phoebe,David Steinberg,01/08/1998,23.7,8.5
+4,12,El de los embriones,Kevin S. Bright,15/01/1998,27.1,9.5
+4,13,El del flechazo de Rachel,Dana DeVally Piazza,29/01/1998,25.3,8.2
+4,14,El del día sucio de Joey,Peter Bonerz,02/05/1998,25.1,8.2
+4,15,El de todo el rugby,James Burrows,26/02/1998,24.4,8.5
+4,16,El de la fiesta falsa,Michael Lembeck,19/03/1998,23.1,8.2
+4,17,El del porno gratis,Michael Lembeck,26/03/1998,23.2,8.6
+4,18,El del nuevo vestido de Rachel,Gail Mancuso,04/02/1998,21.7,8.3
+4,19,El de toda la prisa,Kevin S. Bright,04/09/1998,21.8,8.7
+4,20,El de todos los vestidos de novia,Gail Mancuso,16/04/1998,21.9,8.5
+4,21,El de la invitación,Peter Bonerz,23/04/1998,21.5,7.2
+4,22,El del peor padrino de la historia,Peter Bonerz,30/04/1998,23.2,8.5
+4,23,El de la boda de Ross: Parte 1,Kevin S. Bright,05/07/1998,31.6,8.7
+4,24,El de la boda de Ross: Parte 2,Kevin S. Bright,05/07/1998,31.6,9.2
+5,1,El de después de que Ross diga Rachel,Kevin S. Bright,24/09/1998,31.1,8.9
+5,2,El de todos los besos,Gary Halvorson,10/01/1998,25.4,9.0
+5,3,El del centenario,Kevin S. Bright,10/08/1998,26.8,8.8
+5,4,En el que Phoebe odia el PBS,Shelley Jensen,15/10/1998,24.1,8.3
+5,5,El de los Kips,Dana DeValley Piazza,29/10/1998,25.9,8.8
+5,6,El del Yeti,Gary Halvorson,11/05/1998,25.0,8.1
+5,7,En el que Ross se muda,Gary Halvorson,11/12/1998,24.4,8.4
+5,8,El de todos los Acciones de Gracias,Kevin S. Bright,19/11/1998,23.9,9.2
+5,9,El del sándwich de Ross,Gary Halvorson,12/10/1998,23.0,9.1
+5,10,El de la hermana inapropiada,Dana DeValley Piazza,17/12/1998,23.7,8.2
+5,11,El de todos los propósitos,Joe Regalbuto,01/07/1999,27.0,9.1
+5,12,El de la risa de trabajo de Chandler,Kevin S. Bright,21/01/1999,24.8,8.3
+5,13,El del bolso de Joey,Gail Mancuso,02/04/1999,24.9,8.1
+5,14,En el que todos se enteran,Michael Lembeck,02/11/1999,27.7,9.7
+5,15,El de la chica que pega a Joey,Kevin S. Bright,18/02/1999,29.3,8.5
+5,16,El del policía,Andrew Tsao,25/02/1999,26.0,8.6
+5,17,El del beso involuntario de Rachel,Shelley Jensen,18/03/1999,24.5,8.5
+5,18,En el que Rachel fuma,Todd Holland,04/08/1999,21.9,8.0
+5,19,En el que Ross no sabe ligar,Gail Mancuso,22/04/1999,20.9,8.7
+5,20,El del patrullaje,Gary Halvorson,29/04/1999,19.6,8.3
+5,21,El de la pelota,Gary Halvorson,05/06/1999,20.9,8.5
+5,22,El de la gran oportunidad de Joey,Gary Halvorson,13/05/1999,21.3,8.3
+5,23,El de Las Vegas: Parte 1,Kevin S. Bright,20/05/1999,25.9,8.8
+5,24,El de Las Vegas: Parte 2,Kevin S. Bright,20/05/1999,25.9,9.1
+6,1,El de después de Las Vegas,Kevin S. Bright,23/09/1999,27.7,8.7
+6,2,En el que Ross abraza a Rachel,Gail Mancuso,30/09/1999,22.9,8.2
+6,3,El de la negación de Ross,Gary Halvorson,10/07/1999,21.6,8.2
+6,4,En el que Joey pierde su seguro,Gary Halvorson,14/10/1999,21.1,8.5
+6,5,El del Porsche de Joey,Gary Halvorson,21/10/1999,22.4,8.2
+6,6,El de la última noche,David Schwimmer,11/04/1999,23.6,8.5
+6,7,En el que Phoebe corre,Gary Halvorson,11/11/1999,22.7,8.4
+6,8,El de los dientes de Ross,Gary Halvorson,18/11/1999,22.1,8.5
+6,9,En el que Ross se colocó,Kevin S. Bright,25/11/1999,19.2,9.2
+6,10,El de la coreografía,Kevin S. Bright,16/12/1999,22.4,8.6
+6,11,El de la mesa de boticario,Kevin S. Bright,01/06/2000,22.3,8.1
+6,12,El del chiste,Gary Halvorson,13/01/2000,22.3,8.1
+6,13,El de la hermana de Rachel,Gary Halvorson,02/03/2000,24.1,8.2
+6,14,En el que Chandler no puede llorar,Kevin S. Bright,02/10/2000,23.8,8.6
+6,15,El de lo que pudo haber sido: Parte 1,Michael Lembeck,17/02/2000,20.7,8.5
+6,16,El de lo que pudo haber sido: Parte 2,Michael Lembeck,17/02/2000,20.7,8.5
+6,17,El de Unagi,Gary Halvorson,24/02/2000,22.1,9.1
+6,18,En el que Ross sale con una estudiante,Gary Halvorson,03/09/2000,20.5,8.3
+6,19,El de la nevera de Joey,Ben Weiss,23/03/2000,21.5,8.3
+6,20,El de Mac y C.H.E.E.S.E.,Kevin S. Bright,13/04/2000,18.8,7.4
+6,21,En el que Ross conoce al padre de Elizabeth,Michael Lembeck,27/04/2000,20.6,8.6
+6,22,En el que Paul es el hombre,Gary Halvorson,05/04/2000,20.0,9.0
+6,23,El del anillo,Gary Halvorson,05/11/2000,20.9,8.6
+6,24,El de la proposición: Parte 1,Kevin S. Bright,18/05/2000,30.7,8.8
+6,25,El de la proposición: Parte 2,Kevin S. Bright,18/05/2000,30.7,9.3
+7,1,El del protagonismo de Monica,Kevin S. Bright,10/12/2000,25.54,8.4
+7,2,El del libro de Rachel,Michael Lembeck,10/12/2000,27.93,8.3
+7,3,El de las galletas de Phoebe,Gary Halvorson,19/10/2000,22.7,8.1
+7,4,El del asistente de Rachel,David Schwimmer,26/10/2000,22.66,8.1
+7,5,El de la foto de compromiso,Gary Halvorson,11/02/2000,24.43,8.1
+7,6,El de los compañeros de siesta,Gary Halvorson,11/09/2000,22.01,8.9
+7,7,El del libro de la biblioteca de Ross,David Schwimmer,16/11/2000,23.73,8.5
+7,8,En el que a Chandler no le gustan los perros,Kevin S. Bright,23/11/2000,16.57,8.2
+7,9,El de todos los caramelos,David Schwimmer,12/07/2000,21.08,8.1
+7,10,El del Armadillo Navideño,Gary Halvorson,14/12/2000,23.26,8.5
+7,11,El de todas las tartas de queso,Gary Halvorson,01/04/2001,24.37,8.6
+7,12,En el que están despiertos toda la noche,Kevin S. Bright,01/11/2001,22.86,8.7
+7,13,En el que muere Rosita,Stephen Prime,02/01/2001,22.24,8.4
+7,14,En el que todos cumplen treinta,Ben Weiss,02/08/2001,22.4,8.6
+7,15,El del nuevo cerebro de Joey,Kevin S. Bright,15/02/2001,21.75,8.4
+7,16,El de la verdad sobre Londres,David Schwimmer,22/02/2001,21.22,8.7
+7,17,El del vestido de novia barato,Kevin S. Bright,15/03/2001,20.84,8.4
+7,18,El del premio de Joey,Gary Halvorson,29/03/2001,17.81,8.4
+7,19,El de la prima de Ross y Monica,Gary Halvorson,19/04/2001,16.55,8.7
+7,20,El del gran beso de Rachel,Gary Halvorson,26/04/2001,16.3,8.4
+7,21,El de los votos,Gary Halvorson,05/03/2001,15.65,7.5
+7,22,El del padre de Chandler,Kevin S. Bright & Gary Halvorson,05/10/2001,17.23,8.4
+7,23,El de la boda de Monica y Chandler: Parte 1,Kevin S. Bright,17/05/2001,30.05,8.9
+7,24,El de la boda de Monica y Chandler: Parte 2,Kevin S. Bright,17/05/2001,30.05,9.2
+8,1,"El de después del 'Sí, quiero'",Kevin S. Bright,27/09/2001,31.7,8.7
+8,2,El del jersey rojo,David Schwimmer,10/04/2001,30.04,9.1
+8,3,En el que Rachel cuenta...,Sheldon Epps,10/11/2001,29.2,8.7
+8,4,El de la cinta de vídeo,Kevin S. Bright,18/10/2001,25.58,9.3
+8,5,El de la cita de Rachel,Gary Halvorson,25/10/2001,25.64,8.1
+8,6,El de la fiesta de Halloween,Gary Halvorson,11/01/2001,26.96,8.5
+8,7,El de la mancha,Kevin S. Bright,11/08/2001,24.24,7.9
+8,8,El de la stripper,David Schwimmer,15/11/2001,26.54,8.8
+8,9,El del rumor,Gary Halvorson,22/11/2001,24.24,9.3
+8,10,El de las botas de Monica,Kevin S. Bright,12/06/2001,22.44,8.1
+8,11,El del paso adelante de Ross,Gary Halvorson,13/12/2001,23.85,8.0
+8,12,En el que Joey tiene una cita con Rachel,David Schwimmer,01/10/2002,25.53,8.6
+8,13,En el que Chandler se da un baño,Ben Weiss,17/01/2002,29.24,8.6
+8,14,El del armario secreto,Kevin S. Bright,31/01/2002,28.64,8.2
+8,15,El del vídeo del nacimiento,Kevin S. Bright,02/07/2002,28.64,8.4
+8,16,En el que Joey se lo dice a Rachel,Ben Weiss,28/02/2002,27.52,8.3
+8,17,El de las hojas de té,Gary Halvorson,03/07/2002,26.3,8.1
+8,18,El de Massapequa,Gary Halvorson,28/03/2002,22.05,8.2
+8,19,El de la entrevista de Joey,Gary Halvorson,04/04/2002,22.59,7.5
+8,20,El de la fiesta del bebé,Kevin S. Bright,25/04/2002,22.24,8.2
+8,21,El de la clase de cocina,Gary Halvorson,05/02/2002,23.97,8.2
+8,22,En el que Rachel se retrasa,Gary Halvorson,05/09/2002,24.32,8.3
+8,23,En el que Rachel tiene un bebé: Parte 1,Kevin S. Bright,16/05/2002,34.91,8.8
+8,24,En el que Rachel tiene un bebé: Parte 2,Kevin S. Bright,16/05/2002,34.91,8.9
+9,1,En el que nadie se declara,Kevin S. Bright,26/09/2002,34.01,8.6
+9,2,En el que Emma llora,Sheldon Epps,10/03/2002,28.93,8.6
+9,3,El del pediatra,Roger Christiansen,10/10/2002,26.63,8.2
+9,4,El de los tiburones,Ben Weiss,17/10/2002,25.82,8.2
+9,5,El de la cena de cumpleaños de Phoebe,David Schwimmer,31/10/2002,24.46,8.5
+9,6,El del niñero,Kevin S. Bright,11/07/2002,27.51,8.4
+9,7,El de la canción inapropiada de Ross,Gary Halvorson,14/11/2002,25.35,8.7
+9,8,El de la otra hermana de Rachel,Kevin S. Bright,21/11/2002,26.76,8.8
+9,9,El del número de teléfono de Rachel,Ben Weiss,12/05/2002,25.43,8.2
+9,10,El de la Navidad en Tulsa,Kevin S. Bright,12/12/2002,22.29,7.5
+9,11,En el que Rachel vuelve al trabajo,Gary Halvorson,01/09/2003,23.67,8.0
+9,12,El de las ratas de Phoebe,Ben Weiss,16/01/2003,23.66,8.0
+9,13,En el que Monica canta,Gary Halvorson,30/01/2003,25.82,8.2
+9,14,El de las citas a ciegas,Gary Halvorson,02/06/2003,23.37,8.2
+9,15,El del atraco,Gary Halvorson,13/02/2003,20.85,8.3
+9,16,El de la operación de pecho,Gary Halvorson,20/02/2003,19.52,8.2
+9,17,El del funeral,Gary Halvorson,13/03/2003,21.0,8.5
+9,18,El de la lotería,Gary Halvorson,04/03/2003,20.79,8.6
+9,19,El del sueño de Rachel,Terry Hughes,17/04/2003,18.25,8.1
+9,20,El de la fiesta de los actores de telenovela,Sheldon Epps,24/04/2003,20.71,8.3
+9,21,El de las pruebas de fertilidad,Gary Halvorson,05/01/2003,19.03,8.2
+9,22,El del donante,Ben Weiss,05/08/2003,19.55,7.8
+9,23,El de Barbados: Parte 1,Kevin S. Bright,15/05/2003,25.46,8.5
+9,24,El de Barbados: Parte 2,Kevin S. Bright,15/05/2003,25.46,8.7
+10,1,El de después del beso de Joey y Rachel,Kevin S. Bright,25/09/2003,24.54,8.5
+10,2,En el que Ross está bien,Ben Weiss,10/02/2003,22.38,8.8
+10,3,El del bronceado de Ross,Gary Halvorson,10/09/2003,21.87,8.8
+10,4,El de la tarta,Gary Halvorson,23/10/2003,18.77,8.3
+10,5,En el que la hermana de Rachel cuida a Emma,Roger Christiansen,30/10/2003,19.37,8.2
+10,6,El de la beca de Ross,Ben Weiss,11/06/2003,20.38,8.2
+10,7,El del estudio del hogar,Kevin S. Bright,13/11/2003,20.21,8.3
+10,8,El del Acción de Gracias tardío,Gary Halvorson,20/11/2003,20.66,8.9
+10,9,El de la madre biológica,David Schwimmer,01/08/2004,25.49,8.6
+10,10,En el que pillan a Chandler,Gary Halvorson,15/01/2004,26.68,8.0
+10,11,En el que la stripper llora,Kevin S. Bright,02/05/2004,24.91,9.0
+10,12,El de la boda de Phoebe,Kevin S. Bright,02/12/2004,25.9,8.9
+10,13,En el que Joey habla francés,Gary Halvorson,19/02/2004,24.27,8.5
+10,14,El de la Princesa Consuela,Gary Halvorson,26/02/2004,22.83,8.6
+10,15,En el que muere Estelle,Gary Halvorson,22/04/2004,22.64,8.5
+10,16,El de la fiesta de despedida de Rachel,Gary Halvorson,29/04/2004,24.51,8.9
+10,17,El último: Parte 1,Kevin S. Bright,05/06/2004,52.46,9.7
+10,18,El último: Parte 2,Kevin S. Bright,05/06/2004,52.46,9.7

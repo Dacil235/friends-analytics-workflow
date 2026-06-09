@@ -1,4 +1,4 @@
-personaje,personaje,description,season
+actor,character,description,season
 Brad Pitt,Will Colbert,Antiguo compañero que odiaba a Rachel,8
 Bruce Willis,Paul Stevens,Padre de Elizabeth y novio de Rachel,6
 Julia Roberts,Susie Moss,Compañera de primaria de Chandler,2
@@ -13,7 +13,8 @@ Ben Stiller,Tommy,Novio de Rachel con problemas de ira,3
 Winona Ryder,Melissa Warburton,Amiga de la universidad de Rachel,7
 Gary Oldman,Richard Crosby,Actor que escupe al hablar con Joey,7
 Reese Witherspoon,Jill Greene,Hermana menor de Rachel,6
-Christina Applegate,Amy Greene,,
+Christina Applegate,Amy Greene,Hermana de Rachel,9
+Christina Applegate,Amy Greene,Hermana de Rachel,10
 Alec Baldwin,Parker,Novio de Phoebe extremadamente entusiasta,8
 Jean-Claude Van Damme,Él mismo,Actor en la película que rueda Joey,2
 Hugh Laurie,Pasajero avión,Hombre que se queja de Rachel en el vuelo a Londres,4
@@ -22,5 +23,7 @@ Dakota Fanning,Mackenzie,Niña que vive en la casa que compran Monica y Chandler
 Jeff Goldblum,Leonard Hayes,Director de una obra donde audiciona Joey,9
 Susan Sarandon,Jessica Lockhart,Actriz de 'Days of Our Lives',7
 Jon Favreau,Pete Becker,Millonario novio de Monica que quiere ser luchador,3
-Hank Azaria,David,,
+Hank Azaria,David,El científico novio de Phoebe que se va a Minsk,1
+Hank Azaria,David,El científico novio de Phoebe que vuelve vuelve por una noche,7
+Hank Azaria,David,El científico novio de Phoebe que regresa de Minsk,9
 Kathleen Turner,Charles Bing,Padre de Chandler,7
